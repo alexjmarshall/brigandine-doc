@@ -1,4 +1,5 @@
 # brigandine-doc
-Brigandine game system documentation
+
+Brigandine Game System documentation
 
 Start with the [index](index.md).
