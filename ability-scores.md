@@ -51,6 +51,8 @@ Enlightenment, judgement and intuition. Add the standard modifier to:
 - DCs to resist abjuration, conjuration, divination and necromancy spells
 - Skill checks with animal handling, cookery, farming, firecraft, fishing, foraging, herbalism, hunting, navigation, religion, runecarving, sailing, tracking and wound treatment
 
+**Ability Checks:** Cast cleric spell successfully (DC 4). Note that clerics with Wisdom 13+ automatically succeed.
+
 A high Wisdom score also provides clerics with bonus spells:
 
 | Wis. Score | Bonus Cleric Spells |
@@ -67,7 +69,7 @@ A high Wisdom score also provides clerics with bonus spells:
 Hand-eye coordination, agility and balance. Add the standard modifier to:
 
 - Attack rolls with bow, crossbow, handgonne, sling, straight sword, curved sword, dagger, spear and whip
-- Natural armor class
+- Touch AC
 - Initiative rolls
 - Skill checks with bowyery, calligraphy, climbing, dancing, disarm trap, hide, lockpicking, pickpocketing, poison handling, sneak and tailoring
 - Saving throws to evade physical attacks
