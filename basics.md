@@ -1,24 +1,23 @@
 # Basics
 
-**Rounding:** Always round down. _Exception:_ Damage and hit points have a minimum of 1.
+**Rounding:** Round fractions down, unless stated otherwise.
 
 **Units of Measurement:** Distances are in feet (ft) or yards (yd). Weight is in pounds (lb).
 
 ## Ability Modifiers
 
-**Standard Modifier :** Add to skill checks and saving throws. Unless stated otherwise, "ability mod" refers to the standard modifier.
+**Standard Modifier :** Add this modifier (mod) to skill checks and saves. Unless stated otherwise, assume an ability modifier is the standard modifier.
 
 | Ability Score | Standard Mod |
 | :-----------: | :----------: |
-|       3       |      -3      |
-|      4–5      |      -2      |
-|      6–7      |      -1      |
-|     8–13      |      0       |
-|     14–15     |      +1      |
-|     16–17     |      +2      |
-|      18       |      +3      |
+|      3–5      |      -2      |
+|      6–8      |      -1      |
+|     9–11      |      0       |
+|     12–14     |      +1      |
+|     15–17     |      +2      |
+|     18–20     |      +3      |
 
-**Full Modifier:** Calculated as `ability score – 10`. Use this modifier instead for ability checks.
+**Full Modifier:** Calculated as `ability score – 10`. Use this modifier for ability checks.
 
 | Ability Score | Full Mod |
 | :-----------: | :------: |
@@ -30,43 +29,67 @@
 |      17       |    +7    |
 |      18       |    +8    |
 
-**Note:** Both sequences continue in each direction: 1 standard modifier per 2 ability points, and 1 full modifier for every ability point.
+Both sequences continue in each direction: 1 standard modifier per 3 ability points, and 1 full modifier per ability point.
 
 ## Core Rolls
 
 **Ability Check:** `d20 + full ability mod`
 
-- Handles simple tasks that rely on raw ability.
+- Resolves tasks that rely on raw ability.
 
-**Skill Check:** `d20 + ability mod + skill bonus`
+**Skill Check:** `d20 + standard ability mod + skill bonus`
 
 - Resolves tasks that benefit from training and experience.
+- Attack rolls are skill checks with weapon skills.
+- See skill descriptions for which ability modifier to use.
 
-**Saving Throw:** `d20 + ability mod + save bonus`
+**Save:** `d20 + standard ability mod + save bonus`
 
 - Made in reaction to a trap, spell or special attack as a last chance to avoid harm.
+- **Fortitude:** withstand physical punishment, including poison and disease.
+- **Reflex:** dodge area-affecting attacks, traps, or spells.
+- **Willpower:** resist mental influence and mind-affecting spells.
 
 A roll succeeds if it meets or exceeds the target number:
 
 - Armor Class (AC) for attacks with weapon skills
-- Difficulty Class (DC) for saving throws and other checks
+- Difficulty Class (DC) for saves and other checks
 
-## Determining Difficulty Class
+### Determining Difficulty Class TODO use base DC of 10?
 
 **Save vs. Special Attack:** `12 + ½ the monster's Hit Dice (HD)`
 
-- _Example:_ A Basilisk's petrifying gaze (HD 6) has a DC of `12 + 3 = 15`.
+- _Example:_ The petrifying gaze of a Basilisk (6 HD) has a save DC of `12 + 3 = 15`
 
-**Save vs. Spell:** `12 + spellcasting ability mod + spell level `
+**Save vs. Spell:** `12 + spell level`
 
-- _Example:_ A Mage with Intelligence 16 (+2) casts _confusion_ (level 4). The DC is `12 + 2 + 4 = 18`.
+- _Example:_ A Mage casts _confusion_ (spell level 4). The DC is `12 + 4 = 16`
 
-**Skill and Ability Checks:** Determine based on the task's difficulty, or use a typical value for the Dungeon Level. If unsure, use a DC of 15.
+**Skill and Ability Checks:** Specific DCs for some tasks are given in the Ability and Skill descriptions. For other tasks, see the table below for DCs by task difficulty or monster HD/dungeon level. If unsure, use a DC of 15.
 
-| Task Difficulty | Dungeon Level | DC  |
-| --------------- | :-----------: | :-: |
-| Very Easy       |       0       |  9  |
-| Easy            |      1–3      | 12  |
-| Medium          |      4–7      | 15  |
-| Hard            |     8–12      | 18  |
-| Very Hard       |      13+      | 21  |
+| Task Difficulty | Monster HD/Dungeon Level | DC  |
+| --------------- | :----------------------: | :-: |
+| Very Easy       |            0             |  9  |
+| Easy            |           1–5            | 12  |
+| Medium          |           6–10           | 15  |
+| Hard            |          11–15           | 18  |
+| Very Hard       |           16+            | 21  |
+
+### Passive Perception
+
+Some racial traits and class features let a character "passively notice" something. This means merely passing nearby grants them a secret skill check made by the GM on their behalf. If multiple characters succeed at this check, the one with the highest total notices it first. A character failing this check can still choose to actively search the area, allowing them another skill check.
+
+TODO multiple checks, group checks
+hit points and fatigue points
+
+Action Economy
+
+# Size
+
+ac/attack/hiding mods
+
+size and carrying capacity
+
+effects of encumbrance besides MV?
+
+weapon handedness
