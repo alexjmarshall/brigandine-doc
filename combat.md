@@ -177,6 +177,17 @@ apply cutting modifier to penetrate only if no metal armor is present
 blunt penetration is just damage/denting, which negates the top layer's DR
 piercing/slashing also dent if the rolled pen is exactly equal to the target number
 
+AC only layering rule: you can wear up to 3 layers, min 1 Light, max 2 Medium, max 1 Heavy. Each under layer adds half its (ascending, single digit) AC value, rounded down.
+e.g.
+Padded (2) or Leather (2) = AC 8 [12]
+Padded (2) + Leather (2) = AC 7 [13]
+Padded (2) + Mail (4) = AC 5 [15]
+Padded (2) + Leather (2) + Mail (4) = AC 4 [16]
+Padded (2) + Mail (4) + Mail (4) = AC 3 [17]
+Padded (2) + Mail (4) + Splint (5) = AC 3 [17]
+Padded (2) + Plate (6) = AC 3 [17]
+Padded (2) + Mail (4) + Plate (6) = AC 2 [18]
+
 tests:
 broadhead arrow better than bodkin vs. unarmored and gambeson
 bodkin better against mail over gambeson and plate over gambeson
@@ -428,8 +439,7 @@ Placing both hands on a weapon equal or greater in size that does not require it
 
 Only size T creatures can use the Pixie Bow/Sword
 
-Armor Check Penalty x 2 is applied to min FP
-NonProficient Armor Check Penalty is added to fatigue cost every attack
+Armor Check Penalty is subtracted from max FP
 spell failure -- use formula to make it a percentage using every possible percent, so even a padded coif gives at least 1% chance of failure
 
 Strength level of bows is the max Str bonus/penalty. But also if you don't have at least that Str bonus, you can't fully draw the bow and take -1 to-hit.
@@ -441,9 +451,9 @@ sleep damage = number of hours lost? to heal, can sleep an extra 6 hours max per
 thirst - heal 1 thirst damage with each drink, unlimited drinks if available
 disease - heals at natural rate per day
 
-Fatigue: start at zero. Character has a threshold. Once over that threshold (and every 10 points over) 1 fatigue penalty. Acting with short-term fatigue becomes long term fatigue = to the short-term penalty level. Also each hour of moderately strenuous activity (e.g. hiking) also adds long-term fatigue. Also armor check penalty. Longterm fatigue = starting fatigue in encounter (instead of 0).
+Fatigue: Character has max FP that increases with level. Actions cost fatigue, and cause penalties when below 0. Fatigue penalty equals multiple below 0 (5 or 10?). If reach a fatigue penalty that is higher than long-term fatigue value, latter increased to former. Also each hour of moderately strenuous activity (e.g. hiking) adds 1 long-term fatigue. Max fatigue at start of encounter = max - longterm fatigue points - armor check penalty.
 
-All short term fatigue eliminated with 10 minute rest. Long term fatigue cleared by sleep -- roll d6 for each 2 hours of sleep. Long-term fatigue not cleared before next day's adventuring activity becomes HP damage.
+All short term fatigue eliminated with 10 minute rest. Long term fatigue cleared by sleep -- roll d6 for each 2 hours of sleep. Any long-term fatigue not cleared before next day's adventuring activity becomes HP damage (max HP?)
 
 Rest action in encounter reduces fatigue 10 points - current fatigue penalty level.
 
@@ -552,3 +562,28 @@ Creatures take a –2 penalty to **Spot** and **Search** partially concealed are
 **Line of Effect** is an unbroken, straight path to a target. It determines what an attack, spell, or special ability can affect. Line of effect is blocked by a solid barrier, but not by fog, darkness, or other immaterial visual obstructions.
 
 **Line of Sight** is very similar to line of effect, but is blocked by anything that obstructs vision, like fog, darkness, or opaque objects.
+
+Knockdown is save or be staggered, fail by more than 5 and prone. Trip is save or prone, fail by 5 or more and staggered. Push is like knockdown but you're moved 5' first. Pushing (like all grappling maneuvers only affects targets at most 1 size larger, and they get +4 to save).
+
+Falling: save for half damage
+
+At-will actions:
+At-will actions occur very quickly. At-will abilities, psionic disciplines, and spells with a casting time less than 1 _that don't require a targeting decision_ count as bonus actions. One bonus action can be done on your turn in addition to your standard action. Some of these can also be done during your opponent's turn as a reaction.
+
+Magic Resistance: affects the effects of weapons that deliver an effect beyond damage when striking, such as a vorpal sword or the life draining effect of a sword of life stealing.
+
+Grappling: CAN grapple creatures more than 2 sizes larger, but their movement/attacks are not restricted (you're holding on for dear life). May allow targeting hit locations otherwise unavailable.
+
+Reroll an ability score set if it doesn't qualify for any classes
+
+Read Scrolls Mishap Chance: 5% per SPELL LEVEL higher than highest SPELL LEVEL character can cast
+
+scrolls/magic items need a casting level
+
+healing base die = the recipient's HD
+
+when counting skill increases at level up for chances to increase the ability, only the first from each category counts, e.g. combat, roguery, etc.
+
+TODO for macro for passive perception, gather all PCs that succeed, and randomize who notices first by weighting each PC according to their margin of success
+
+different clothing/armor materials have a chance to ignite (maybe just burlap, linen, padded, and gambeson are flammable)

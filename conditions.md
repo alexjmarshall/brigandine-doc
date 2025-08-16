@@ -15,3 +15,11 @@ You're magically transparent and therefore **Unseen** to every creature (unless 
 ### Silenced
 
 You emanate no sound. You can't cast spells with a Verbal component. If you're **Unseen**, you can move to a different location and become **Undetected** without **Sneaking** (unless your enemies have a special way to pinpoint your location without hearing you).
+
+### Staggered
+
+You can take a partial move action but not a standard action while regaining your bearings.
+
+### Stunned
+
+You drop everything held, can't take any actions, and are attacked at +2.

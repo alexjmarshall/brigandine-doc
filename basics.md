@@ -59,11 +59,11 @@ A roll succeeds if it meets or exceeds the target number:
 
 **Save vs. Special Attack:** `12 + ½ the monster's Hit Dice (HD)`
 
-- _Example:_ The petrifying gaze of a Basilisk (6 HD) has a save DC of `12 + 3 = 15`
+- E.g. the petrifying gaze of a Basilisk (6 HD) has a save DC of `12 + 3 = 15`
 
 **Save vs. Spell:** `12 + spell level`
 
-- _Example:_ A Mage casts _confusion_ (spell level 4). The DC is `12 + 4 = 16`
+- E.g. a Mage casts _confusion_ (spell level 4). The DC is `12 + 4 = 16`
 
 **Skill and Ability Checks:** Specific DCs for some tasks are given in the Ability and Skill descriptions. For other tasks, see the table below for DCs by task difficulty or monster HD/dungeon level. If unsure, use a DC of 15.
 
@@ -81,8 +81,9 @@ Some racial traits and class features let a character "passively notice" somethi
 
 TODO multiple checks, group checks
 hit points and fatigue points
+Combat Turn vs. Round vs. Exploration Turn
 
-Action Economy
+Action Economy - by default, assume doing a thing takes your action. Concentration: abilities that require concentration (includes "at-will" abilities) can generally be combined with physical actions but not mental like spellcasting. UNLESS it involves a targeting decision, then it counts as a full action and can't be combined with physical actions either.
 
 # Size
 

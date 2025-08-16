@@ -28,10 +28,10 @@ If you can see a creature, you can tell whether it's Observing you.
 
 ### Awareness
 
-**Unnoticed:** Enemies are unaware of your presence. Your attacks have a +4 bonus. **Assassins** can attempt to **Assassinate**, and **Thieves** can use their **Backstab** ability. You can evade enemies who haven't noticed you without any risk of pursuit. If an enemy notices your presence, but can't pinpoint your location, you become Undetected.
+**Unseen:** Enemies know where you are but can't see you. Your attacks have a +2 bonus and attacks against you suffer a –4 penalty. If your appearance is revealed, you lose all benefits from stealth.
 
 **Undetected:** Enemies are aware of your presence but don't know where you are. Your attacks have a +4 bonus and **Thieves** can **Backstab**. You can't be targeted by spells, and can't be attacked unless your attacker guesses your location (and even then, their attacks suffer a –4 penalty). If you attack or make a sound louder than a whisper (such as casting a spell with a Verbal component), your location is detected and you become Unseen.
 
-**Unseen:** Enemies know where you are but can't see you. Your attacks have a +2 bonus and attacks against you suffer a –4 penalty. If your appearance is revealed, you lose all benefits from stealth.
+**Unnoticed:** Enemies are unaware of your presence. Your attacks have a +4 bonus. **Assassins** can attempt to **Assassinate**, and **Thieves** can use their **Backstab** ability. You can evade enemies who haven't noticed you without any risk of pursuit. If an enemy notices your presence, but can't pinpoint your location, you become Undetected.
 
 Once a creature is seen in an encounter, it can become Unseen or Undetected but not Unnoticed again.

@@ -34,7 +34,7 @@ Memory, reasoning and learning ability. Add the standard modifier to:
 
 **Ability Checks:** Learn magic spell (DC 12)
 
-**Spell Level Limit:** The maximum level of magic spell characters can cast is `Int / 2`. _Example:_ A character with Intelligence 15 can cast up to 7th level spells.
+**Spell Level Limit:** The maximum level of magic spell characters can cast is `Int / 2`. E.g. a character with Intelligence 15 can cast up to 7th level spells.
 
 **Bonus Languages:** Characters with high Intelligence begin with additional languages from their race’s bonus list.
 
@@ -56,7 +56,7 @@ Enlightenment, judgement and self-control. Add the standard modifier to:
 
 **Ability Checks:** Cast cleric spell (DC 4). Note that clerics with Wisdom 13+ succeed automatically.
 
-**Bonus Cleric Spells:** Clerics with high Wisdom receive bonus spells. These are cumulative. _Example:_ A Cleric with 17 Wisdom gains one extra 1st-level and one extra 2nd-level spell per day.
+**Bonus Cleric Spells:** Clerics with high Wisdom receive bonus spells. These are cumulative. E.g. a Cleric with 17 Wisdom gains one extra 1st-level and one extra 2nd-level spell per day.
 
 |  Wis  | Bonus Cleric Spells |
 | :---: | :-----------------: |

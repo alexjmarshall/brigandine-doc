@@ -1,8 +1,6 @@
 # Races
 
-Subrace adjustments are cumulative with those of the base race, unless stated otherwise. _Example:_ the Duergar's class options include the base Dwarf's classes as well as their additional class (Cleric/Thief).
-
-## Human
+## Human TODO Hadean, Northlander, Whudjan, Enoruuk subraces
 
 _Ardent for power and dominion. The heralds of a new age._
 
@@ -38,13 +36,11 @@ _Dour and clannish but deeply loyal._
 
 **Dwarven Combat Training:** +4 AC vs. Giant-type monsters (e.g. ogres, trolls, giants, titans). +1 to-hit orcs and goblinoids.
 
-**Magic-Averse:** +4 to all saves vs. spells and spell-like effects. Magic items (except weapons, armor, shields, gauntlets, and girdles) have a 20% chance to fail when used. Roll each time the item is activated. Continuous-effect items that fail this check never function for the Dwarf.
+**Magic-Averse:** +4 to all saves vs. spells and spell-like effects. Magic items (except weapons, armor, shields, gauntlets, and girdles) have a 20% chance to fail when used. Roll each time the item is activated. For continuous-effect items, roll once when the item is first worn or used. On a failure, it never functions for the Dwarf.
 
 **Small Arms:** Cannot use Huge-sized swords or bows.
 
-**Stable:** +4 to save vs. knockdown, push, and trip attempts.
-
-**Steady:** Unaffected by Light encumbrance.
+**Steady:** Unaffected by Light encumbrance. +4 to save vs. knockdown, push, and trip attempts.
 
 **Stonecunning:** +2 Gemcraft and Stoneworking. Senses depth underground. Passively notices unusual stonework, such as stonework traps, unsafe ceilings, sloping passages, or sliding walls.
 
@@ -66,9 +62,9 @@ _Dour and clannish but deeply loyal._
 
 ### Gray Dwarf (Duergar)
 
-**Classes:** Cleric/Thief
+**Classes:** As base Dwarf, plus Cleric/Thief.
 
-**Languages:** Automatically speaks Undercommon.
+**Languages:** As base Dwarf, plus Undercommon (automatic).
 
 **Alert:** Passively notices stealthy enemies. Replaces _Dwarven Combat Training_.
 
@@ -106,37 +102,45 @@ _An ancient race, aloof and preoccupied by their fate._
 
 **Reverie:** Immune to magical sleep. Requires no sleep, but must spend 4 hours daily in a trance-like state to heal and recover spells. In this state, the character remains conscious and aware but taking any action disrupts thir rest.
 
-**Weary:** +20% XP required to next level.
+**World-weary:** +20% XP required to next level.
 
 **Worldbound:** Cannot be raised or spoken with after death.
 
 ### High Elf
 
-**Languages:** Automatically speaks Celestial.
+**Languages:** As base Elf, plus Celestial (automatic).
 
 **Loremaster:** +2 Medicine and Religion.
 
-**Parting Gift:** Begins with a valuable item. d8: 1 – cloak of elvenkind, 2 – longbow strung of angel's hair (+1), 3 – hauberk of elven chain, 4 – waybread (12 weeks), 5 – rope of climbing, 6 – vial of starlight, 7 – silver flower bell, 8 – golden leaf belt.
+**Parting Gift:** Begins with a valuable item.
+| d8 | Item |
+|:-------:|------------------------------------------|
+| 1 | Cloak of Elvenkind |
+| 2 | Longbow strung of angel's hair (+1) |
+| 3 | Hauberk of Elven mail |
+| 4 | Waybread (12 weeks) |
+| 5 | Rope of climbing |
+| 6 | Vial of starlight |
+| 7 | Silver flower bell |
+| 8 | Golden leaf belt |
 
 ### Wood Elf
 
-**Abilities:** +1 Strength, -1 Intelligence
+**Abilities:** As base Elf, plus +1 Strength and -1 Intelligence.
 
-**Languages:** Automatically speaks Sylvan.
+**Languages:** As base Elf, plus Sylvan (automatic).
 
 **Animal Empathy:** Befriends animals easily. Gently approach an animal to improve their Reaction by one category. Wild or hostile animals may save to resist.
 
 **Woodland Stealth:** Hiding and Sneaking bonus increases to +4 in woodland.
 
-**Worldsong:** Once per hour, may listen to their surroundings to sense traces of evil, extraplanar, or unnaturally hidden creatures, or echoes of powerful emotions (e.g. great sorrow or joy). In primeval forest, may ask a brief question of the Worldsong.
+**Worldsong:** Once per hour, may listen to their surroundings to sense traces of evil or extraplanar creatures, or residue of powerful emotions (e.g. great sorrow or joy). In primeval forest, may ask a question to clarify the impression, such as the nature of the creatures involved or how long ago the impression was made.
 
 ### Dark Elf (Drow)
 
-**Abilities:** +1 Wisdom (females only), +1 Charisma (females only)
+**Classes:** As base Elf, plus Cleric/Thief, Fighter/Cleric/Thief, and Cleric/Mage/Thief.
 
-**Classes:** Cleric/Thief, Fighter/Cleric/Thief, Cleric/Mage/Thief
-
-**Languages:** _Automatic:_ Silent Speech and Undercommon. _Bonus:_ High Drow.
+**Languages:** As base Elf, plus Silent Speech and Undercommon (automatic), and High Drow (bonus).
 
 **Ambidextrous:** No off-hand attack penalty. When fighting with two weapons, both attack at the main-hand penalty. Replaces _Elven Weapon Familiarity_.
 
@@ -171,20 +175,6 @@ _A restless wanderlust makes them natural explorers._
 **Sharp Senses:** +2 Listening and Searching.
 
 **Slippery Mind:** +2 to saves vs. enchantments.
-
-### Half-High Elf
-
-**Abilities:** +1 Intelligence
-
-### Half-Wood Elf
-
-**Abilities:** +1 Strength
-
-### Half-Dark Elf
-
-**Darkvision:** Can see up to 60' in darkness.
-
-**Stigma:** Reaction modifier reduced to -2.
 
 ## Half-Ogre
 
@@ -242,6 +232,8 @@ _Garrulous and happy-go-lucky. Often underestimated and capable of great bravery
 
 **Doughty:** +4 to saves vs. fear.
 
+### Hairfoot
+
 **Light Step:** +2 Hiding and Sneaking in wilderness terrain.
 
 **Uncanny Shot:** +2 with Bow and Sling.
@@ -251,8 +243,6 @@ _Garrulous and happy-go-lucky. Often underestimated and capable of great bravery
 **Darkvision:** Can see up to 60' in darkness.
 
 **Direction Sense:** Senses direction of travel underground. Passively notices changes in direction or position caused by navigational traps, such as shifting rooms, sloping passages, or teleporters.
-
-**Steady:** Unaffected by Light encumbrance.
 
 ### Tallfellow
 
