@@ -2,11 +2,11 @@
 
 ## Psionic Ability
 
-Psionic talent is determined at character creation. Add together your full modifiers for Intelligence, Wisdom, and Charisma and roll this as a percentage chance. E.g. a character with Int 17 (+7), Wis 8 (–2), and Cha 15 (+5) has a `7 - 2 + 5 = 10%` chance of psionic talent.
+Psionic talent is determined at character creation. Add together your full modifiers for Intelligence, Wisdom, and Charisma and roll this as a percentage chance. _Example:_ a character with Int 17 (+7), Wis 8 (–2), and Cha 15 (+5) has a `7 - 2 + 5 = 10%` chance of psionic talent.
 
 Psionic ability is measured in **Psionic Strength Points (PSPs)**. PSPs are spent to use psionic disciplines and attack/defense modes in psionic combat.
 
-**Starting Ability:** Find your _psionic modifer_ by adding together your standard modifiers for Intelligence, Wisdom, and Charisma. E.g. Int 17 (+2), Wis 8 (-1), and Cha 15 (+2) results in a `2 - 1 + 2 = 3` psionic modifier. Then roll `2d10 + psionic mod` for starting PSPs.
+**Starting Ability:** Find your _psionic modifer_ by adding together your standard modifiers for Intelligence, Wisdom, and Charisma. _Example:_ Int 17 (+2), Wis 8 (-1), and Cha 15 (+2) results in a `2 - 1 + 2 = 3` psionic modifier. Then roll `2d10 + psionic mod` for starting PSPs.
 
 **Advancement:** Each level after the first, increase PSPs by `1d10 + psionic mod`.
 
@@ -14,7 +14,7 @@ Psionic ability is measured in **Psionic Strength Points (PSPs)**. PSPs are spen
 
 ## Psionic Disciplines
 
-Psionic disciplines are divided into five fields of study, each governed by a corresponding skill: _Clairsentience_, _Psychokinesis_, _Psychometabolism_, _Psychoportation_, and _Telepathy_. A character's _mastery level_ with a discipline is equal to their skill level in its governing field. E.g. The hypnosis discipline references your “level of mastery.” Because hypnosis falls under _Telepathy_, your mastery level is your current level in the _Telepathy_ skill. Minor disciplines are known as _devotions_ and major disciplines are known as _sciences_.
+Psionic disciplines are divided into five fields of study, each governed by a corresponding skill: _Clairsentience_, _Psychokinesis_, _Psychometabolism_, _Psychoportation_, and _Telepathy_. A character's _mastery level_ with a discipline is equal to their skill level in its governing field. _Example:_ The hypnosis discipline references your “level of mastery.” Because hypnosis falls under _Telepathy_, your mastery level is your current level in the _Telepathy_ skill. Minor disciplines are known as _devotions_ and major disciplines are known as _sciences_.
 
 | Psionic Skill    | Minor Devotions                                                                         | Major Sciences                                                                                     |
 | ---------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -67,15 +67,15 @@ A creature incapable of voluntary action (due to unconsciousness, confusion, ins
 
 ### Attack Modes
 
-| Attack Mode    | Point Cost | Range | Area of Effect   | Target Type  |
-| -------------- | :--------: | :---: | ---------------- | ------------ |
-| Psionic Blast  |     20     |  30'  | Cone             | Any          |
-| Mind Thrust    |     4      |  80'  | One creature     | Psionic only |
-| Ego Whip       |     7      |  60'  | 20' x 20' square | Psionic only |
-| Id Insinuation |     10     | 120'  | One creature     | Psionic only |
-| Psychic Crush  |     14     |  50'  | One creature     | Psionic only |
+| Attack Mode    | Point Cost |  Range  | Area of Effect         | Target Type  |
+| -------------- | :--------: | :-----: | ---------------------- | ------------ |
+| Psionic Blast  |     20     | 30 ft.  | Cone                   | Any          |
+| Mind Thrust    |     4      | 80 ft.  | One creature           | Psionic only |
+| Ego Whip       |     7      | 60 ft.  | 20 ft. x 20 ft. square | Psionic only |
+| Id Insinuation |     10     | 120 ft. | One creature           | Psionic only |
+| Psychic Crush  |     14     | 50 ft.  | One creature           | Psionic only |
 
-_Psionic Blast_ unleashes a wave of raw mental force, overwhelming the mind with a stunning revelation. It's the only attack mode usable on non-psionic creatures, though the attacker must have at least 100 PSPs remaining. Non-psionic targets are treated as defenseless. Psionic targets must save or be **Staggered** for 1 round, even if they have an active defense.
+_Psionic Blast_ unleashes a wave of raw mental force, overwhelming the mind with a stunning revelation. It's the only attack mode usable on non-psionic creatures, though the attacker must have at least 100 PSPs remaining. Non-psionic targets are treated as defenseless. Psionic targets must save or be **Dazed**, even if they have an active defense.
 
 _Mind Thrust_ delivers a focused, piercing impulse that attempts to short-circuit the target’s synaptic pathways. It is an inexpensive attack with fair effectiveness against any defense.
 
@@ -87,13 +87,13 @@ _Psychic Crush_ overwhelms the target’s brain with a flood of mental signals, 
 
 ### Defense Modes
 
-| Defense Mode       | Point Cost | Area of Effect          | Save Bonus |
-| ------------------ | :--------: | ----------------------- | :--------: |
-| Mind Blank         |     1      | Personal                |     0      |
-| Thought Shield     |     2      | Personal                |     0      |
-| Mental Barrier     |     3      | Personal                |     0      |
-| Intellect Fortress |     8      | 10' radius of defender  |     +2     |
-| Tower of Iron Will |     10     | One creature within 60' |     +6     |
+| Defense Mode       | Point Cost | Area of Effect             | Save Bonus |
+| ------------------ | :--------: | -------------------------- | :--------: |
+| Mind Blank         |     1      | Personal                   |     0      |
+| Thought Shield     |     2      | Personal                   |     0      |
+| Mental Barrier     |     3      | Personal                   |     0      |
+| Intellect Fortress |     8      | 10 ft. radius of defender  |     +2     |
+| Tower of Iron Will |     10     | One creature within 60 ft. |     +6     |
 
 _Mind Blank_ veils the mind in obscurity, rendering its inner workings indistinct and difficult to target. It is primarily useful if you suspect an _Id Insinuation_ attack.
 
@@ -156,7 +156,7 @@ _Tower of Iron Will_ draws solely upon the superego, constructing an impregnable
 
 **Scan:** Psionic creatures automatically sense the presence of other conscious psionics within 60', unless the target has _Thought Shield_ active. In that case, the observer must _Scan_ for them with a DC 15 _Clairsentience_ skill check.
 
-_Scan_ takes an action and functions in a 60' radius. It reveals which creatures are psionic, their current PSP totals, and which attack and defense modes they know.
+_Scan_ takes an action and functions in a 60 ft. radius. It reveals which creatures are psionic, their current PSP totals, and which attack and defense modes they know.
 
 Without _Scan_, psionically attacking a target only reveals the defense mode used (and it may be unclear whether the defense belongs to the target or an ally, as some defense modes have an area of effect).
 

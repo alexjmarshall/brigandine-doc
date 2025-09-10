@@ -4,15 +4,15 @@
 
 A creature with Blindsight can perceive its surroundings within a limited range, even in magical darkness or against invisible targets, as long as it has line of effect. It does not detect ethereal creatures. This ability is commonly found in animals that navigate by echolocation or detect heat, like bats and snakes.
 
-Depending on the nature of the Blindsight, certain methods may allow a target to hide (e.g. by masking themselves with sounds or other heat sources). In such cases, they make a Hide check opposed by the Spot check of the creature with Blindsight as usual.
+Depending on the nature of the Blindsight, certain methods may allow a target to hide (_Example:_ by masking themselves with sounds or other heat sources). In such cases, they make a Hide check opposed by the Spot check of the creature with Blindsight as usual.
 
 ### Darkvision
 
-Creatures with darkvision see in darkness as if it were dim light. Darkvision doesn't reveal invisible things, nor does it penetrate magical darkness.
+Creatures with darkvision see in darkness as if it were dim light. Darkvision does not reveal invisible things, nor does it penetrate magical darkness.
 
 ### Keen Scent
 
-A creature with this ability has a much keener sense of smell than humans. They can detect the presence of other creatures within 30'. If the target is downwind, the range is 60'. If it is upwind, the range is 15'. The creature normally senses only the source's presence and general direction. However, within 10', the target's precise location is detected.
+A creature with this ability has a much keener sense of smell than humans. They can detect the presence of other creatures within 30 ft. If the target is downwind, the range is 60 ft. If it is upwind, the range is 15 ft. The creature normally senses only the source's presence and general direction. However, within 10 ft., the target's precise location is detected.
 
 A creature with this ability and the Tracking skill can follow trails by scent. The base DC to track a fresh trail is 10, modified by factors such as the strength of the target’s scent, the number of individuals, and the age of the trail. The DC increases by 2 for each hour the trail has gone cold.
 

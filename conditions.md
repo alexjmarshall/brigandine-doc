@@ -16,9 +16,9 @@ You're magically transparent and therefore **Unseen** to every creature (unless 
 
 You emanate no sound. You can't cast spells with a Verbal component. If you're **Unseen**, you can move to a different location and become **Undetected** without **Sneaking** (unless your enemies have a special way to pinpoint your location without hearing you).
 
-### Staggered
+### Dazed
 
-You can take a partial move action but not a standard action while regaining your bearings.
+You can take a partial move action but not a standard action while regaining your bearings. This condition lasts for 1 round, unless stated otherwise.
 
 ### Stunned
 

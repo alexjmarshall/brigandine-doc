@@ -116,11 +116,11 @@ all slash and pierce weapons take -1 dmg if blunted
 all balanced swings take -2
 but all unbalanced swings take -1 dmg when hitting from a preparation (feint, parry, bind)
 flexible thrusts (size M+ straight swords) also take -2 unless held in half-sword grip
-+1 ac when parrying if your atk form is opposite the attack e.g. swing vs. thrusts
++1 ac when parrying if your atk form is opposite the attack _Example:_ swing vs. thrusts
 half-sword gives -1 dmg to swings, requires 2 hands and size M+ sword
 mordhau grip (certain swords only, 2 hands) does unbalanced blunt swing damage -1 dmg, -1 speed, -1 parry, +1 impact
 
-some weapons can have split dmg types, e.g. thrust from a sword does P/S.
+some weapons can have split dmg types, _Example:_ thrust from a sword does P/S.
 The first value is used for AC/Pen and light injuries
 The second is used for DR, damage resistance/vulnerability, and moderate/severe/gruesome injuries.
 EXCEPTION: if the atk form is thrusting or missile, always use Piercing for injuries if included.
@@ -178,7 +178,7 @@ blunt penetration is just damage/denting, which negates the top layer's DR
 piercing/slashing also dent if the rolled pen is exactly equal to the target number
 
 AC only layering rule: you can wear up to 3 layers, min 1 Light, max 2 Medium, max 1 Heavy. Each under layer adds half its (ascending, single digit) AC value, rounded down.
-e.g.
+_Example:_
 Padded (2) or Leather (2) = AC 8 [12]
 Padded (2) + Leather (2) = AC 7 [13]
 Padded (2) + Mail (4) = AC 5 [15]
@@ -241,7 +241,7 @@ on Armors tab, don't need to list every hit location, just every armor combinati
 
 use abbreviations for hit locations like Harnmaster
 
-e.g.
+_Example:_
 Iron Plate > Mail > Padded - skull
 Mail > Padded - chest, belly (R), shoulder (D-L), upper arm
 Iron Plate > Padded - elbow, knee
@@ -451,7 +451,7 @@ sleep damage = number of hours lost? to heal, can sleep an extra 6 hours max per
 thirst - heal 1 thirst damage with each drink, unlimited drinks if available
 disease - heals at natural rate per day
 
-Fatigue: Character has max FP that increases with level. Actions cost fatigue, and cause penalties when below 0. Fatigue penalty equals multiple below 0 (5 or 10?). If reach a fatigue penalty that is higher than long-term fatigue value, latter increased to former. Also each hour of moderately strenuous activity (e.g. hiking) adds 1 long-term fatigue. Max fatigue at start of encounter = max - longterm fatigue points - armor check penalty.
+Fatigue: Character has max FP that increases with level. Actions cost fatigue, and cause penalties when below 0. Fatigue penalty equals multiple below 0 (5 or 10?). If reach a fatigue penalty that is higher than long-term fatigue value, latter increased to former. Also each hour of moderately strenuous activity (_Example:_ hiking) adds 1 long-term fatigue. Max fatigue at start of encounter = max - longterm fatigue points - armor check penalty.
 
 All short term fatigue eliminated with 10 minute rest. Long term fatigue cleared by sleep -- roll d6 for each 2 hours of sleep. Any long-term fatigue not cleared before next day's adventuring activity becomes HP damage (max HP?)
 
@@ -582,8 +582,17 @@ scrolls/magic items need a casting level
 
 healing base die = the recipient's HD
 
-when counting skill increases at level up for chances to increase the ability, only the first from each category counts, e.g. combat, roguery, etc.
+when counting skill increases at level up for chances to increase the ability, only the first from each category counts, _Example:_ combat, roguery, etc.
 
 TODO for macro for passive perception, gather all PCs that succeed, and randomize who notices first by weighting each PC according to their margin of success
 
 different clothing/armor materials have a chance to ignite (maybe just burlap, linen, padded, and gambeson are flammable)
+
+# Cleave
+
+When you incapacitate an enemy with a melee attack, make another attack with the same weapon against an enemy adjacent to the first. You cannot move or change facing before this attack, and it does not trigger any further cleaves.
+
+- _Swings and Thrusts:_ A swing allows the cleave to target any enemy within reach. A thrust limits the cleave to an enemy directly behind the first target.
+- _Two-Weapon Fighting:_ Each hand triggers its own chain of attacks. Cleaves triggered by a main-hand attack are made with the main-hand, and those triggered by an off-hand attack are made with the off-hand.
+
+- instead of flat bonus HP for origin, add from d4 to d10 extra

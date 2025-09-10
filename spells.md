@@ -5,7 +5,7 @@ A square must be fully within the area of effect to be included.
 Spells not assigned a type (as some spells appear on multiple lists). WRITTEN sources are assigned a type (either magic, illusionist, or cleric).
 
 - Illusionists, Bards, and Jesters can read their spells from illusionist books/scrolls. Learning is automatic.
-- Mages, Thieves, and Bards can read any magic book/scroll. Illusionists and Jesters can read their spells from magic books/scrolls. Learning requires a roll (Thieves can't learn).
+- Mages, Thieves, and Bards can read any magic book/scroll. Illusionists and Jesters can read their spells from magic books/scrolls. Learning requires a roll (Thieves can not learn).
 - Clerics, Scribes, and Bards can read cleric scrolls.
 
 logic when reading a book/scroll

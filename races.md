@@ -1,6 +1,8 @@
 # Races
 
-## Human TODO Hadean, Northlander, Whudjan, Enoruuk subraces
+TODO add MR to dwaves/drow and edit xp penalties, revise situational skill/save modifiers
+
+## Human TODO Hadean, Northlander, Whudjan, Enoruuk subraces -- -1 cold fatigue damage
 
 _Ardent for power and dominion. The heralds of a new age._
 
@@ -32,17 +34,17 @@ _Dour and clannish but deeply loyal._
 
 **Size:** Medium
 
-**Darkvision:** Can see up to 60' in darkness.
+**Darkvision:** Can see up to 60 ft. in darkness.
 
-**Dwarven Combat Training:** +4 AC vs. Giant-type monsters (e.g. ogres, trolls, giants, titans). +1 to-hit orcs and goblinoids.
+**Dwarven Combat Training:** +2 AC vs. Giant-type monsters (_Example:_ ogres, trolls, giants, titans). +2 to-hit orcs and goblinoids.
 
 **Magic-Averse:** +4 to all saves vs. spells and spell-like effects. Magic items (except weapons, armor, shields, gauntlets, and girdles) have a 20% chance to fail when used. Roll each time the item is activated. For continuous-effect items, roll once when the item is first worn or used. On a failure, it never functions for the Dwarf.
 
 **Small Arms:** Cannot use Huge-sized swords or bows.
 
-**Steady:** Unaffected by Light encumbrance. +4 to save vs. knockdown, push, and trip attempts.
+**Steady:** Unaffected by [Light] encumbrance. +4 to save vs. knockdown, push, or trip attempts.
 
-**Stonecunning:** +2 Gemcraft and Stoneworking. Senses depth underground. Passively notices unusual stonework, such as stonework traps, unsafe ceilings, sloping passages, or sliding walls.
+**Stonecunning:** +2 Gemcraft and Stoneworking. Senses approximate depth underground. Passively notices unusual stonework, such as stonework traps, unsafe ceilings, sloping passages, or sliding walls.
 
 **Stubborn:** +20% XP required to next level.
 
@@ -58,7 +60,7 @@ _Dour and clannish but deeply loyal._
 
 **Runekeeper:** +2 History and Runelore.
 
-**Tough:** +1 hitpoint per level.
+**Robust:** +1 hitpoint per level.
 
 ### Gray Dwarf (Duergar)
 
@@ -74,7 +76,7 @@ _Dour and clannish but deeply loyal._
 
 **Light Blindness:** -2 to attack rolls and Searching checks in bright light. Abrupt exposure to bright light blinds for 1 round.
 
-**Shifty:** Can use each of these spell-like abilities once per day: _invisibility_ and _enlarge_.
+**Shifty:** Can use each of these spell-like abilities once a day: _invisibility_ and _enlarge_.
 
 ## Elf
 
@@ -94,7 +96,7 @@ _An ancient race, aloof and preoccupied by their fate._
 
 **Superior Vision:** Twice normal visual range in dim/bright light.
 
-**Enigmatic Mind:** Immune to charm. +2 to saves vs. other enchantments.
+**Enigmatic Mind:** Immune to magical charm. +2 to saves vs. other enchantments.
 
 **Keen Senses:** +2 Searching and Listening. Passively notices secret doors and concealed portals.
 
@@ -113,16 +115,17 @@ _An ancient race, aloof and preoccupied by their fate._
 **Loremaster:** +2 Medicine and Religion.
 
 **Parting Gift:** Begins with a valuable item.
-| d8 | Item |
-|:-------:|------------------------------------------|
-| 1 | Cloak of Elvenkind |
-| 2 | Longbow strung of angel's hair (+1) |
-| 3 | Hauberk of Elven mail |
-| 4 | Waybread (12 weeks) |
-| 5 | Rope of climbing |
-| 6 | Vial of starlight |
-| 7 | Silver flower bell |
-| 8 | Golden leaf belt |
+
+| d8  | Item                                |
+| :-: | ----------------------------------- |
+|  1  | Cloak of Elvenkind                  |
+|  2  | Longbow strung of angel's hair (+1) |
+|  3  | Hauberk of Elven mail               |
+|  4  | Waybread (12 weeks)                 |
+|  5  | Rope of climbing                    |
+|  6  | Vial of starlight                   |
+|  7  | Silver flower bell                  |
+|  8  | Golden leaf belt                    |
 
 ### Wood Elf
 
@@ -134,7 +137,7 @@ _An ancient race, aloof and preoccupied by their fate._
 
 **Woodland Stealth:** Hiding and Sneaking bonus increases to +4 in woodland.
 
-**Worldsong:** Once per hour, may listen to their surroundings to sense traces of evil or extraplanar creatures, or residue of powerful emotions (e.g. great sorrow or joy). In primeval forest, may ask a question to clarify the impression, such as the nature of the creatures involved or how long ago the impression was made.
+**Worldsong:** Once per hour, may listen to their surroundings to sense traces of evil or extraplanar creatures, or residue of powerful emotions (_Example:_ great sorrow or joy). In primeval forest, may ask a question to clarify the impression, such as the nature of the creatures involved or how long ago the impression was made.
 
 ### Dark Elf (Drow)
 
@@ -144,15 +147,15 @@ _An ancient race, aloof and preoccupied by their fate._
 
 **Ambidextrous:** No off-hand attack penalty. When fighting with two weapons, both attack at the main-hand penalty. Replaces _Elven Weapon Familiarity_.
 
-**Superior Darkvision:** Can see up to 120' in darkness. Replaces _Enhanced Vision_.
-
 **Hated:** -4 Reaction.
 
 **Light Blindness:** -2 to attack rolls and Searching checks in bright light. Abrupt exposure to bright light blinds for 1 round.
 
 **Residual Magic Resistance:** +2 to all saves vs. spells and spell-like effects.
 
-**Witchblood:** Can use each of these spell-like abilities once per day: _dancing lights_, _darkness_, and _faerie fire_.
+**Superior Darkvision:** Can see up to 120 ft. in darkness. Replaces _Enhanced Vision_.
+
+**Witchblood:** Can use each of these spell-like abilities once a day: _dancing lights_, _darkness_, and _faerie fire_.
 
 ## Half-Elf
 
@@ -190,11 +193,13 @@ _Foul-tempered and individualistic. Relishes mortal combat._
 
 **Size:** Large
 
-**Darkvision:** Can see up to 60' in darkness.
+**Darkvision:** Can see up to 60 ft. in darkness.
 
 **Iron Stomach:** Can consume raw meat, rotten food or unclean water without risk of disease.
 
 **Monstrous:** +4 Intimidation, -4 Reaction
+
+**Robust:** +1 hitpoint per level.
 
 ## Half-Orc
 
@@ -212,7 +217,7 @@ _Some resist while others embrace their bestial nature._
 
 **Beast-Marked:** +2 Intimidation, -2 Reaction.
 
-**Darkvision:** Can see up to 60' in darkness.
+**Darkvision:** Can see up to 60 ft. in darkness.
 
 **Killer Instinct:** +2 to hit injured or bleeding opponents.
 
@@ -240,7 +245,7 @@ _Garrulous and happy-go-lucky. Often underestimated and capable of great bravery
 
 ### Stout
 
-**Darkvision:** Can see up to 60' in darkness.
+**Darkvision:** Can see up to 60 ft. in darkness.
 
 **Direction Sense:** Senses direction of travel underground. Passively notices changes in direction or position caused by navigational traps, such as shifting rooms, sloping passages, or teleporters.
 
@@ -264,8 +269,10 @@ _Mischievous and naive. Fascinated by things novel or intricate._
 
 **Size:** Tiny
 
+**Delicate:** -1 hitpoint per level.
+
 **Natural Flight:** Can fly at will.
 
 **Natural Invisibility:** Can become invisible at will, and attack or cast spells while invisible.
 
-**Pixie Dust:** Three times per day, blow magic dust upon a creature to cause the effects of one of the following spells: _confusion_, _fly_, _forget_, _invisibility_, or _sleep_.
+**Pixie Dust:** Three times a day, blow magic dust upon a creature to cause the effects of one of the following spells: _confusion_, _fly_, _forget_, _invisibility_, or _sleep_.

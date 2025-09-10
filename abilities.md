@@ -34,9 +34,7 @@ Memory, reasoning and learning ability. Add the standard modifier to:
 
 **Ability Checks:** Learn magic spell (DC 12)
 
-**Spell Level Limit:** The maximum level of magic spell characters can cast is `Int / 2`. E.g. a character with Intelligence 15 can cast up to 7th level spells.
-
-**Bonus Languages:** Characters with high Intelligence begin with additional languages from their race’s bonus list.
+**Bonus Languages:** Characters with high Intelligence begin with additional languages selected from the bonus list from their race or class.
 
 |  Int  | Bonus Languages |
 | :---: | :-------------: |
@@ -56,7 +54,7 @@ Enlightenment, judgement and self-control. Add the standard modifier to:
 
 **Ability Checks:** Cast cleric spell (DC 4). Note that clerics with Wisdom 13+ succeed automatically.
 
-**Bonus Cleric Spells:** Clerics with high Wisdom receive bonus spells. These are cumulative. E.g. a Cleric with 17 Wisdom gains one extra 1st-level and one extra 2nd-level spell per day.
+**Bonus Cleric Spells:** Clerics with high Wisdom receive bonus spells. These are cumulative. _Example:_ a Cleric with 17 Wisdom gains one extra 1st-level and one extra 2nd-level spell a day.
 
 |  Wis  | Bonus Cleric Spells |
 | :---: | :-----------------: |
@@ -106,11 +104,11 @@ Appearance, leadership and personal magnetism. Add the standard modifier to:
 
 ## Prime Requisite Experience Bonus
 
-Humans with a very high score in their class's prime requisite ability require fewer experience points (XP) to reach the next level. This modifier is fixed and does not change if the ability score later increases or decreases. Note that some classes do not have a prime requisite ability.
+Humans with a very high score in their class's prime requisite ability require fewer experience points (XP) to reach the next level. (Note: this is mathemtically equivalent to a bonus of 10/20/30% to earned XP, but requires only one calculation per level).
 
 | Prime Requisite | XP Required |
 | :-------------: | :---------: |
 |      3–15       |    100%     |
-|       16        |     95%     |
-|       17        |     90%     |
-|       18        |     85%     |
+|       16        |     91%     |
+|       17        |     83%     |
+|       18        |     77%     |

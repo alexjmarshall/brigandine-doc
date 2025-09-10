@@ -4,38 +4,38 @@ TODO explain multi and dual classing
 
 TODO gives qualification odds for each class and separate into tiers Common (50%+), Uncommon (26-50%), Rare (10-25%), Very Rare (3-10%), and Legendary (<3%)
 
-## Fighter
+Base Class defines: prime requisite, XP track, saves, hit dice
+Subclass defines: ability score reqs, armors, shields, weapons, skills, features
+
+TODO replace Base Classes with 4 core: Warrior, Magic-User, Rogue, Priest
+Warrior (Str, Fort/Ref, Will): Fighter, Berserker, Samurai, Paladin, Ranger, Barbarian, Beastmaster
+Magic-User (Int, Will, Ref/Fort): Wizard, Incantatrix, Illusionist, Bard, Jester, Skald
+Priest (Wis, Will/Fort, Ref): Cleric, Cloistered Cleric, Runepriest, Druid, Witch, Monk
+Rogue (Dex, Ref, Fort/Will): Thief, Assassin, Ninja, Swashbuckler, Bandit
+TODO remove curse ability for Shadow Hunter or Monk
+
+## Fighters
+
+**Hit Dice:** d10
 
 **Prime Requisite:** Strength
 
-**Armors:** Heavy
-
-**Shields:** Any
-
-**Weapons:** Any
-
-**Specialized Skills:** Axe, Bludgeon, Bow, Crossbow, Curved Sword, Dagger, Flail, Hand-to-Hand, Polearm, Sling, Spear, Staff, Straight Sword, Throwing, Whip
-
-**Multi-Attack:** Attack twice at 7th level, and three times at 13th level.
-
-**Stronghold:** At 9th level, you are eligible to be granted the title of Lord and awarded a domain by a patron or liege. You may establish a stronghold by constructing a castle, which attracts 3d6 x 5 loyal soldiers, including one captain of level 1–2 for every ten soldiers and a castellan of level 5–7. Peasant families settle the domain and generate revenue based on the land’s size and quality.
-
-| Level | XP Required | Hit Dice (d10) | Fort Save | Ref Save | Will Save | Fighter Features  | Berserker Features    | Samurai Features                  |
-| :---: | :---------: | :------------: | :-------: | :------: | :-------: | ----------------- | --------------------- | --------------------------------- |
-|   1   |      0      |       1        |     3     |    0     |     0     | Cleave            | Berserkergang (1/day) | Fearless, Ki, Iai-jutsu, Ju-jutsu |
-|   2   |    1,000    |       2        |     4     |    1     |     1     |                   |                       | Issen-jutsu                       |
-|   3   |    3,000    |       3        |     5     |    2     |     2     |                   |                       |                                   |
-|   4   |    7,000    |       4        |     5     |    2     |     2     |                   | Berserkergang (2/day) |                                   |
-|   5   |   15,000    |       5        |     6     |    3     |     3     |                   |                       | Kiai-jutsu                        |
-|   6   |   30,000    |       6        |     7     |    4     |     4     |                   |                       |                                   |
-|   7   |   60,000    |       7        |     8     |    5     |     5     | Multi-Attack (2x) | Multi-Attack (2x)     | Multi-Attack (2x)                 |
-|   8   |   120,000   |       8        |     8     |    5     |     5     |                   | Berserkergang (3/day) | Senpū-jutsu                       |
-|   9   |   240,000   |       9        |     9     |    6     |     6     | Stronghold        | Stronghold            | Stronghold                        |
-|  10   |   400,000   |     9 + 3      |    10     |    7     |     7     |                   |                       |                                   |
-|  11   |   560,000   |     9 + 6      |    11     |    8     |     8     |                   |                       |                                   |
-|  12   |   720,000   |     9 + 9      |    11     |    8     |     8     |                   | Berserkergang (4/day) |                                   |
-|  13   |   880,000   |     9 + 12     |    12     |    9     |     9     | Multi-Attack (3x) | Multi-Attack (3x)     | Multi-Attack (3x)                 |
-|  14   |  1,040,000  |     9 + 15     |    13     |    10    |    10     |                   |                       |                                   |
+| Level | XP Required | Hit Dice | Fort | Ref | Will | Fighter Features  | Berserker Features    | Samurai Features              |
+| ----: | ----------: | -------: | ---: | --: | ---: | ----------------- | --------------------- | ----------------------------- |
+|     1 |           0 |        1 |    1 |   1 |   -2 | Great Cleave      | Berserkergang (1/day) | Fearless, Iai-jutsu, Ju-jutsu |
+|     2 |       1,000 |        2 |    2 |   2 |   -1 |                   |                       | Issen-jutsu                   |
+|     3 |       3,000 |        3 |    3 |   3 |    0 |                   |                       |                               |
+|     4 |       7,000 |        4 |    3 |   3 |    0 |                   | Berserkergang (2/day) |                               |
+|     5 |      15,000 |        5 |    4 |   4 |    1 |                   |                       | Kiai-jutsu                    |
+|     6 |      30,000 |        6 |    5 |   5 |    2 |                   |                       |                               |
+|     7 |      60,000 |        7 |    6 |   6 |    3 | Multi-Attack (2x) | Multi-Attack (2x)     | Multi-Attack (2x)             |
+|     8 |     120,000 |        8 |    6 |   6 |    3 |                   | Berserkergang (3/day) | Senpu-jutsu                   |
+|     9 |     240,000 |        9 |    7 |   7 |    4 | Stronghold        | Stronghold            | Stronghold                    |
+|    10 |     400,000 |    9 + 3 |    8 |   8 |    5 |                   |                       |                               |
+|    11 |     560,000 |    9 + 6 |    9 |   9 |    6 |                   |                       |                               |
+|    12 |     720,000 |    9 + 9 |    9 |   9 |    6 |                   | Berserkergang (4/day) |                               |
+|    13 |     880,000 |   9 + 12 |   10 |  10 |    7 | Multi-Attack (3x) | Multi-Attack (3x)     | Multi-Attack (3x)             |
+|    14 |   1,040,000 |   9 + 15 |   11 |  11 |    8 |                   |                       |                               |
 
 +160,000 XP required and +3 HP each additional level
 
@@ -49,11 +49,17 @@ _A stalwart champion of the battlefield._
 
 **Armors:** Plate
 
-**Cleave:** When you incapacitate an enemy with a melee attack, make an immediate follow-up attack with the same weapon. This attack can target the same or a different enemy within reach.
+**Shields:** Any
 
-- _Swings and Thrusts:_ A swing allows the cleave attack to target any enemy adjacent to the first. A thrust limits the cleave to an enemy directly behind the first target.
+**Weapons:** Any
 
-- _Two-Weapon Fighting:_ Each hand triggers its own chain of attacks. Cleaves triggered by a main-hand attack are made with the main-hand, and those triggered by an off-hand attack are made with the off-hand.
+**Specialized Skills:** Axe, Bludgeon, Bow, Crossbow, Curved Sword, Dagger, Flail, Hand-to-Hand, Polearm, Sling, Spear, Staff, Straight Sword, Throwing, Whip
+
+**Great Cleave:** Your [cleave] attacks can trigger more cleaves, and you may change your facing between each to attack any foe around you.
+
+**Multi-Attack:** Attack twice at 7th level, and three times at 13th level.
+
+**Stronghold:** At 9th level, you are eligible to be granted the title of Lord and awarded a domain by a patron or liege. You may establish a stronghold by constructing a castle, which attracts 3d6 x 5 loyal soldiers, including one captain of level 1–2 for every ten soldiers and a castellan of level 5–7. Peasant families settle the domain and generate revenue based on the land’s size and quality.
 
 ### Berserker
 
@@ -63,15 +69,35 @@ _A terrifying warrior who fights with reckless abandon._
 
 **Rarity:** Rare (23%)
 
-**Berserkergang:** Once a day per 4 Berserker levels, you can drive yourself into a terrible rage, howling, biting your shield, or striking your own flesh. Achieving this state takes an action and you must be in combat or know that battle is imminent. While berserk, you gain an extra attack each round, immunity to mind-affecting attacks, and temporary HP and FP of 5 + 2/level. You cannot cast spells, use psionic powers, take a defensive stance, or retreat from battle. The frenzy lasts until the battle ends or a maximum number of rounds equal to your Constitution score, after which you lose HP and FP equal to the temporary bonus, which may result in long-term fatigue or unconsciousness.
+**Armors:** Heavy
+
+**Shields:** Any
+
+**Weapons:** Any
+
+**Specialized Skills:** Axe, Bludgeon, Bow, Crossbow, Curved Sword, Dagger, Flail, Hand-to-Hand, Polearm, Sling, Spear, Staff, Straight Sword, Throwing, Whip
+
+**Berserkergang (Frenzy):** Once a day per 4 levels, you can drive yourself into a terrible rage, howling, biting your shield, or striking your own flesh. Achieving this state is a full-round action and you must be in combat or know that battle is imminent. While berserk, you gain an extra attack each round, immunity to mind-affecting attacks, and temporary HP and FP of 5 + 2/level. You cannot cast spells, use psionic powers, take a defensive stance, or retreat from battle. The frenzy lasts until the battle ends or a maximum number of rounds equal to your Constitution score, after which you lose HP and FP equal to the temporary bonus, which may result in long-term fatigue or unconsciousness.
+
+**Multi-Attack:** Attack twice at 7th level, and three times at 13th level.
+
+**Stronghold:** At 9th level, you are eligible to be granted the title of Lord and awarded a domain by a patron or liege. You may establish a stronghold by constructing a castle, which attracts 3d6 x 5 loyal soldiers, including one captain of level 1–2 for every ten soldiers and a castellan of level 5–7. Peasant families settle the domain and generate revenue based on the land’s size and quality.
 
 ### Samurai
 
-_A servant of honor, bound to duty, ready to die without hesitation._
+_A servant of honor, bound to duty and ready to die._
 
 **Requirements:** Str 9+, Wis 15+, Dex 12+, Lawful alignment
 
 **Rarity:** Very Rare (3.5%)
+
+**Armors:** Heavy
+
+**Shields:** Any
+
+**Weapons:** Any
+
+**Specialized Skills:** Axe, Bludgeon, Bow, Crossbow, Curved Sword, Dagger, Flail, Hand-to-Hand, Polearm, Sling, Spear, Staff, Straight Sword, Throwing, Whip
 
 **Bushido:** The way of the warrior is hard and unrelenting. At its center are the tenets of honor, loyalty, and duty. From this come five precepts:
 
@@ -81,55 +107,55 @@ _A servant of honor, bound to duty, ready to die without hesitation._
 - **Composure:** Hold your emotions steady and never be distracted from your task. Meet the enemy with neither rashness nor hesitation.
 - **Courage:** To live is to die; accept this and you can never fail, for death is not failure. To die well is the highest honor and greatest service.
 
-The Samurai's way of life (_do_) and combat arts (_jutsu_) are intrinsically linked. One who fails to live rightly loses their status and becomes a _Ronin_. Ronin must begin again as 1st-level base Fighters (without the plate armor proficiency or Cleave ability of the true Fighter class), and lose all Samurai abilities until they surpass their former Samurai level. A second violation of their code results in the loss of their Samurai abilities forever.
+The Samurai's way of life (_do_) and combat arts (_jutsu_) are intrinsically linked. One who fails to live rightly loses their status and becomes a _Ronin_. Ronin lose all Samurai abilities until the midpoint of their next level. During this time, they must follow their code strictly or lose their abilities forever.
 
 **Fearless:** Immune to fear effects.
 
-**Ki:** Focus life energy to power the following abilities. Your Ki points per day are equal to your Samurai level.
+**Ki:** Focus life energy to power the following abilities. You have a number of Ki points a day equal to your level.
 
-- **Iai-jutsu (Quick Draw):** Spend 1 Ki to draw and attack with a weapon in a single action. This attack automatically surprises an enemy when performed out of combat.
+- **Iai-jutsu (Quick Draw):** Spend 1 Ki to draw and attack with a weapon at the same time. This attack automatically surprises the target when performed out of combat.
 
-- **Ju-jutsu (Yielding Art):** Spend 1 Ki to throw an enemy when their attack misses your touch AC or their grappling manuever fails by 5 or more. You must be able to grapple them.
+- **Ju-jutsu (Yielding Art):** Spend 1 Ki to [throw] an enemy when their attack misses your touch AC or their grappling manuever fails by 5 or more. You must be able to grapple them.
 
-- **Issen-jutsu (Flashing Strike) [2nd level]:** Spend 1 Ki before an attack roll. If it hits, weapon damage is maximized.
+- **Issen-jutsu (Flashing Strike) [2nd level]:** Spend 1 Ki before an attack roll. If it hits, you automatically deal maximum damage.
 
-- **Kiai-jutsu (Spirited Shout) [5th level]:** Spend Ki to release a mighty shout that staggers your enemies. This ability cannot be used on consecutive rounds.
+- **Kiai-jutsu (Spirited Shout) [5th level]:** Spend 2 Ki to release a thunderous shout that jars the senses. All creatures in a 20' cone must succeed on a Fort save or be [stunned] for 1d4 rounds. Allies in the area of effect save at a +4 bonus.
 
-  - **1 Ki:** Stagger a single enemy within 10' for 1 round (no save).
-  - **2 Ki:** Stagger all enemies in a 15' cone. Size Large or smaller enemies are pushed 5' and must save or fall prone.
-  - **3 Ki:** Stagger all enemies in a 15' cone. Size Large or smaller enemies are hurled 10' and fall prone (no save).
+- **Senpu-jutsu (Whirlwind Attack) [8th level]:** Spend 3 Ki to strike all enemies within reach with a single swing of your weapon. Make separate attack and damage rolls for each target.
 
-- **Senpū-jutsu (Whirlwind Attack) [8th level]:** Spend 3 Ki to attack every enemy within reach with a single action. This ability cannot be used on consecutive rounds.
+**Multi-Attack:** Attack twice at 7th level, and three times at 13th level.
 
-## Cleric
+**Stronghold:** At 9th level, you are eligible to be granted the title of Lord and awarded a domain by a patron or liege. You may establish a stronghold by constructing a castle, which attracts 3d6 x 5 loyal soldiers, including one captain of level 1–2 for every ten soldiers and a castellan of level 5–7. Peasant families settle the domain and generate revenue based on the land’s size and quality.
 
-| Level | XP Required | Hit Dice (d8) | Fort Save | Ref Save | Will Save | Cleric Features | Friar Features | Runepriest Features |
-| :---: | :---------: | :-----------: | :-------: | :------: | :-------: | --------------- | -------------- | ------------------- |
-|   1   |      0      |       1       |     2     |    –2    |     2     |                 |                |                     |
-|   2   |     800     |       2       |     3     |    –1    |     3     |                 |                |                     |
-|   3   |    2,400    |       3       |     4     |    0     |     4     |                 |                |                     |
-|   4   |    5,600    |       4       |     4     |    0     |     4     |                 |                |                     |
-|   5   |   12,000    |       5       |     5     |    1     |     5     |                 |                |                     |
-|   6   |   25,000    |       6       |     6     |    2     |     6     |                 |                |                     |
-|   7   |   50,000    |       7       |     6     |    2     |     6     |                 |                |                     |
-|   8   |   100,000   |       8       |     7     |    3     |     7     |                 |                |                     |
-|   9   |   200,000   |       9       |     8     |    4     |     8     |                 |                |                     |
-|  10   |   340,000   |     9 + 2     |     8     |    4     |     8     |                 |                |                     |
-|  11   |   480,000   |     9 + 4     |     9     |    5     |     9     |                 |                |                     |
-|  12   |   620,000   |     9 + 6     |    10     |    6     |    10     |                 |                |                     |
-|  13   |   760,000   |     9 + 8     |    10     |    6     |    10     |                 |                |                     |
-|  14   |   900,000   |    9 + 10     |    11     |    7     |    11     |                 |                |                     |
-|  15   |  1,040,000  |    9 + 12     |    12     |    8     |    12     |                 |                |                     |
+## Clerics
+
+| Level | XP Required | Hit Dice (d8) | Fort Save | Ref Save | Will Save | Cleric | Cloistered Cleric | Runepriest |
+| :---: | :---------: | :-----------: | :-------: | :------: | :-------: | ------ | ----------------- | ---------- |
+|   1   |      0      |       1       |     1     |    -2    |     1     |        |                   |            |
+|   2   |     800     |       2       |     2     |    -1    |     2     |        |                   |            |
+|   3   |    2,400    |       3       |     3     |    0     |     3     |        |                   |            |
+|   4   |    5,600    |       4       |     3     |    0     |     3     |        |                   |            |
+|   5   |   12,000    |       5       |     4     |    1     |     4     |        |                   |            |
+|   6   |   25,000    |       6       |     5     |    2     |     5     |        |                   |            |
+|   7   |   50,000    |       7       |     6     |    3     |     6     |        |                   |            |
+|   8   |   100,000   |       8       |     6     |    3     |     6     |        |                   |            |
+|   9   |   200,000   |       9       |     7     |    4     |     7     |        |                   |            |
+|  10   |   340,000   |     9 + 2     |     8     |    5     |     8     |        |                   |            |
+|  11   |   480,000   |     9 + 4     |     9     |    6     |     9     |        |                   |            |
+|  12   |   620,000   |     9 + 6     |     9     |    6     |     9     |        |                   |            |
+|  13   |   760,000   |     9 + 8     |    10     |    7     |    10     |        |                   |            |
+|  14   |   900,000   |    9 + 10     |    11     |    8     |    11     |        |                   |            |
+|  15   |  1,040,000  |    9 + 12     |    12     |    9     |    12     |        |                   |            |
 
 +140,000 XP required and +2 HP each additional level
 
 ### Cleric
 
-### Friar
+### Cloistered Cleric
 
 ### Runepriest
 
-## Thief
+## Thieves
 
 **Hit Die:** d6
 
@@ -182,7 +208,9 @@ The Samurai's way of life (_do_) and combat arts (_jutsu_) are intrinsically lin
 - Assassin - level based mechanic, like 3e spell resistance
 - Ninja - Heroic Legendarium Psychic Talents
 
-## Mage
+### Swashbuckler
+
+## Mages
 
 | Level | XP Required | Hit Dice (d4) | Fort Save | Ref Save | Will Save | Mage Features | Illusionist Features | Incantatrix Features |
 | :---: | :---------: | :-----------: | :-------: | :------: | :-------: | ------------- | -------------------- | -------------------- |
@@ -255,12 +283,13 @@ Bard
 - Skald - Heroic Legendarium Psychic Talent shouts
 - Jester?
 
-## Barbarian
+## Barbarians
 
-- Wizard Slayer AoO applies to spell casting and use of magic items/potions
-- Beastmaster - Arcanum, Dragon 116, split XP between self and beast companion
+**Hit Dice:** d12
 
-| Level | XP Required | Hit Dice (d12) | Fort Save | Ref Save | Will Save | Barbarian Features | Beastmaster Features |
+**Prime Requisite:** Strength
+
+| Level | XP Required | Hit Dice (d10) | Fort Save | Ref Save | Will Save | Barbarian Features | Beastmaster Features |
 | :---: | :---------: | :------------: | :-------: | :------: | :-------: | ------------------ | -------------------- |
 |   1   |      0      |       2        |     2     |    –2    |     2     |                    |                      |
 |   2   |    1,500    |       3        |     3     |    –1    |     2     |                    |                      |
@@ -280,9 +309,38 @@ Bard
 
 ### Barbarian
 
+- limited armors: lvl 1-3 shield only, lvl 4-6 any non-metal, lvl 7-9 medium armor, 10-12 heavy armor, 13+ plate armor
+  - this is not just armor proficiency, but will refuse to wear heavier
+- natural toughness: -1 bleed damage, +1 natural healing hp, +4 saves vs. poison
+- fleet-footed: 15 base MV, double dex mod to AC
+- danger sense: passive perception of anything dangerous (what skill? this as a skill) -- includes chance to detect magic and illusions
+- fearless: fear causes attack the source in fury instead of flee
+- wizard slayer: free reactive attack on enemy casting within reach
+- first attack ferocity: attack/damage bonus on first round melee attack if win initiative
+- limited magic: lvl 1-3 cleric spells only, lvl 4-6 use potions/magic weapons, lvl 7-9 use magic armor/protection scrolls, lvl 10-12 use any magic item
+- back attack protection
+- detect illusion/magic
+
 ### Beastmaster
 
-## Druid
+- limited armors: lvl 1-3 shield only, lvl 4+ any non-metal
+- enhanced vision/hearing -- low light vision like elves? Scent?
+- natural toughness
+- fleet-footed
+- fearless
+- split XP with animal companion - bear, big cat, wolf, giant snake
+- animal empathy
+- howl, animal sound imitation
+- leaping and springing? (pounce) -- +2 to-hit but if miss, save or fall prone -- can leap backwards 10' after an attack?
+
+## Paladins
+
+## Rangers
+
+- arcane spell failure chance does not apply, but can't cast spells from scrolls
+- limited armors: lvl 1-3 light armor, lvl 4-6 medium armor, lvl 7-9 heavy armor, lvl 10+ plate armor
+
+## Druids
 
 - Witch/Warlock, Arcanum, Dragon, replace Druid spells, Dungeoneer
 
@@ -303,7 +361,7 @@ Bard
 |  13   |   750,000   |      13       |    10     |    6     |     8     |                |                |
 |  14   |  1,000,000  |      14       |    11     |    7     |     8     |                |                |
 
-## Monk - Heroic Legendarium Psychic Talents
+## Monk - Heroic Legendarium Psychic Talents and 2e Scarlet Brotherhood
 
 | Level | XP Required | Hit Dice (d4) | Fort Save | Ref Save | Will Save | Mage Features | Illusionist Features | Incantatrix Features |
 | :---: | :---------: | :-----------: | :-------: | :------: | :-------: | ------------- | -------------------- | -------------------- |
@@ -325,51 +383,32 @@ Bard
 |  16   |   800,000   |    11 + 5     |    12     |    8     |     9     |               |                      |                      |
 |  17   |   900,000   |    11 + 6     |    12     |    8     |    10     |               |                      |                      |
 
-## Bard
+## Bards
 
 **Prime Requisite:** Charisma
 
-**Armors:** Light
+**Hit Dice:** d6
 
-**Shields:** Buckler only
-
-**Weapons:** Simple only
-
-**Specialized Skills:** Poetry
-
-**Proficient Skills:** Axe, Bludgeon, Bow, Crossbow, Curved Sword, Dagger, Flail, Hand-to-Hand, Polearm, Sling, Spear, Staff, Straight Sword, Throwing, Whip
-
-| Level | XP Required | Hit Dice (d6) | Fort Save | Ref Save | Will Save | Bard Features | Jester Features | Skald Features |
-| :---: | :---------: | :-----------: | :-------: | :------: | :-------: | ------------- | --------------- | -------------- |
-|   1   |      0      |       1       |     0     |    3     |     3     |               |                 |                |
-|   2   |     700     |       2       |     1     |    4     |     4     | Spellcasting  | Spellcasting    |                |
-|   3   |    2,200    |       3       |     2     |    5     |     5     |               |                 |                |
-|   4   |    5,200    |       4       |     2     |    5     |     5     |               |                 |                |
-|   5   |   11,000    |       5       |     3     |    6     |     6     |               |                 |                |
-|   6   |   22,000    |       6       |     4     |    7     |     7     |               |                 |                |
-|   7   |   40,000    |       7       |     5     |    8     |     8     |               |                 |                |
-|   8   |   80,000    |       8       |     5     |    8     |     8     |               |                 |                |
-|   9   |   130,000   |       9       |     6     |    9     |     9     |               |                 |                |
-|  10   |   210,000   |      10       |     7     |    10    |    10     |               |                 |                |
-|  11   |   330,000   |      11       |     8     |    11    |    11     |               |                 |                |
-|  12   |   480,000   |    11 + 2     |     8     |    11    |    11     |               |                 |                |
-|  13   |   630,000   |    11 + 4     |     9     |    12    |    12     |               |                 |                |
-|  14   |   780,000   |    11 + 6     |    10     |    13    |    13     |               |                 |                |
-|  15   |   930,000   |    11 + 7     |    11     |    14    |    14     |               |                 |                |
-|  16   |  1,080,000  |    11 + 10    |    11     |    14    |    14     |               |                 |                |
+| Level | XP Required | Hit Dice | Fort | Ref | Will | Bard Features             | Jester Features | Skald Features |
+| ----: | ----------: | -------: | ---: | --: | ---: | ------------------------- | --------------- | -------------- |
+|     1 |           0 |        1 |   -2 |   1 |    1 | Spellsongs                |                 |                |
+|     2 |         700 |        2 |   -1 |   2 |    2 |                           | Spellcasting    |                |
+|     3 |       2,000 |        3 |    0 |   3 |    3 |                           |                 |                |
+|     4 |       5,000 |        4 |    0 |   3 |    3 | Vocal Mastery (1st level) |                 |                |
+|     5 |      10,000 |        5 |    1 |   4 |    4 |                           |                 |                |
+|     6 |      22,000 |        6 |    2 |   5 |    5 |                           |                 |                |
+|     7 |      40,000 |        7 |    3 |   6 |    6 | Vocal Mastery (2nd level) |                 |                |
+|     8 |      75,000 |        8 |    3 |   6 |    6 |                           |                 |                |
+|     9 |     120,000 |        9 |    4 |   7 |    7 |                           |                 |                |
+|    10 |     180,000 |       10 |    5 |   8 |    8 | Vocal Mastery (3rd level) |                 |                |
+|    11 |     300,000 |       11 |    6 |   9 |    9 |                           |                 |                |
+|    12 |     440,000 |   11 + 2 |    6 |   9 |    9 |                           |                 |                |
+|    13 |     580,000 |   11 + 4 |    7 |  10 |   10 | Vocal Mastery (4th level) |                 |                |
+|    14 |     720,000 |   11 + 6 |    8 |  11 |   11 |                           |                 |                |
+|    15 |     860,000 |   11 + 7 |    9 |  12 |   12 |                           |                 |                |
+|    16 |   1,000,000 |  11 + 10 |    9 |  12 |   12 | Vocal Mastery (5th level) |                 |                |
 
 +150,000 XP required and +2 HP each additional level
-
-- bardic spells
-
-  - cast as mage, unlimited spell choice
-  - cast as mage, limited thematic selection,
-  - bard songs (restricted list, cast differently -- all effects require concentration, excludes proficient armors from spellcasting failure chance)
-
-- bard spells vs. skill-based performances (limit = level per day)
-- true bard unlimited magic spells (though fewer slots), music-based performances (charms)
-- skald no spells, medium armor and all weapons?, combat buffs, poetry-based performances (divinations/individual curses), boasting (allow other characters to make and achieve boasts for +20% next level XP award, must witness the boast and retell its success)
-- jester restricted spell list (magic/illusionist), dodge/insanity immunity, poetry and some dance-based performances (charms/group debuffs), taunting (and voice-throwing, so taunting on behalf of other PCs!) -- Thief-Acrobat abilities? Houri?
 
 ### Bard
 
@@ -377,19 +416,53 @@ Bard
 
 **Rarity:** Uncommon (28%)
 
-**Specialized Skills:** As base Bard, plus Ancient Languages, Legendry, Listening, and Music.
+**Armors:** Light
 
-**Proficient Skills:** As base Bard, plus Sleight of Hand.
+**Shields:** Buckler only
 
-**Spellcasting [2nd level]:** Casts magic spells, which must be learned from books or scrolls. Can learn any magic spell but does not add a spell of their choice when increasing in level.
+**Weapons:** Simple only
 
-**Read Any Scroll [2nd level]:** Due to their great facility with language, can read scrolls of any type (magic, illusionist, or cleric).
+**Specialized Skills:** Ancient Languages, Legendry, Listening, Music, Poetry
 
-**Melodic Charm:** Perform music or poetry to sway the mood of an audience. They must be able to hear and understand you, and must not be engaged in combat. If they fail a Will save, they remain attentive for 10 minutes, after which their Reaction improves by one step (e.g. from Cautious to Friendly). This ability can affect the same audience only once.
+**Proficient Skills:** Bludgeon, Bow, Curved Sword, Dagger, Hand-to-Hand, Sleight of Hand, Sling, Spear, Staff, Straight Sword, Throwing, Whip
 
-**Inspiring Verse:** Bolster your companions before battle by singing heroic songs or telling inspiring tales of their coming victory. All must be aware of the upcoming battle and the general nature of your foe must be known. The performance takes 3 rounds, and your audience must be able to hear and understand you. When complete, they receive a bonus of +2 to morale, and +1 to to-hit rolls and saves, which lasts a number of rounds equal to 2 + your Bard level.
+**Spellsongs:** Your spells take the form of magical songs. You do not keep a spellbook and can cast any of your known songs without prior preparation. The number of songs you know increases with level, as shown on the table below. At 1st level, your known songs are determined randomly. Starting at 2nd level, when you gain an additional song, choose one from the Bard Songs list and attempt a [Learn Spell]() check to master it. If you fail, you learn a random song instead.
 
-**Countersong:** Counter the effects of hostile sound, whether songs, chants, wails, or even commands or suggestions from spells (but not spells that merely have verbal components). While performing the Countersong, you must concentrate and make a Music check each round. Any creature within 30' (including yourself) that is affected by a sonic or language-dependent magical attack may use the better of its own saving throw result or your Music check. Creatures already affected by such an attack gain another saving throw each round they hear the countersong, but must use your Music check result for the save. Countersong has no effect against attacks that do not allow saves. You can maintain the countersong for up to 10 rounds, after which you require a 10-minute rest before using it again.
+| Level | Songs per Day |     |     |     |     | Songs Known |     |     |     |     |
+| ----: | ------------: | --: | --: | --: | --: | ----------: | --: | --: | --: | --: |
+|       |             1 |   2 |   3 |   4 |   5 |           1 |   2 |   3 |   4 |   5 |
+|     1 |             1 |   - |   - |   - |   - |           2 |   - |   - |   - |   - |
+|     2 |             2 |   - |   - |   - |   - |           3 |   - |   - |   - |   - |
+|     3 |             3 |   - |   - |   - |   - |           4 |   - |   - |   - |   - |
+|     4 |             3 |   1 |   - |   - |   - |           4 |   2 |   - |   - |   - |
+|     5 |             3 |   2 |   - |   - |   - |           5 |   3 |   - |   - |   - |
+|     6 |             3 |   3 |   - |   - |   - |           6 |   4 |   - |   - |   - |
+|     7 |             3 |   3 |   1 |   - |   - |           6 |   4 |   2 |   - |   - |
+|     8 |             3 |   3 |   2 |   - |   - |           6 |   5 |   3 |   - |   - |
+|     9 |             3 |   3 |   3 |   - |   - |           6 |   6 |   4 |   - |   - |
+|    10 |             3 |   3 |   3 |   1 |   - |           6 |   6 |   4 |   2 |   - |
+|    11 |             3 |   3 |   3 |   2 |   - |           6 |   6 |   5 |   3 |   - |
+|    12 |             3 |   3 |   3 |   3 |   - |           6 |   6 |   6 |   4 |   - |
+|    13 |             3 |   3 |   3 |   3 |   1 |           6 |   6 |   6 |   4 |   2 |
+|    14 |             3 |   3 |   3 |   3 |   2 |           6 |   6 |   6 |   5 |   3 |
+|    15 |             3 |   3 |   3 |   3 |   3 |           6 |   6 |   6 |   6 |   4 |
+|    16 |             4 |   3 |   3 |   3 |   3 |           7 |   6 |   6 |   6 |   5 |
+
+**Vocal Mastery:** All Bard spells require singing to cast them, and many require singing (and concentration) to sustain their effect. Initially, spellsinging must be accompanied by playing a musical instrument, which occupies the hands and limits movement to 1/3 MV. As Bards advance in level, they gradually learn to cast and sustain spells with their voice alone. At 4th level, they can sing 1st-level spells without accompaniment; at 7th, 2nd-level spells; at 10th, 3rd-level spells; at 13th, 4th-level spells; and at 16th level, they can power any of their spells by singing alone.
+
+**Sway Crowd:** Play music or recite poetry to sway the mood of an audience. They must be able to hear you, and must not be engaged in combat. Make a Music or Poetry skill check (your choice). The result is the DC for a Will save by your audience. If their save fails, they remain attentive for 10 minutes, after which their Reaction improves by one step (_Example:_ from Cautious to Friendly).
+
+**Inspiring Verse:** Steel your companions before battle by reciting epic poetry of heroes past. All must be aware of the upcoming battle and the general nature of your foe must be known. The performance takes 3 rounds, and your audience must be able to hear and understand you. When complete, you and your allies gain bonuses for a number of rounds equal to 2 + your Bard level, based on the result of a Poetry skill check:
+
+| Poetry Check Result | Morale Bonus | Attack Bonus | Save Bonus |
+| ------------------- | ------------ | ------------ | ---------- |
+| <15                 | +2           | +1           | +1         |
+| 15–19               | +4           | +2           | +2         |
+| 20+                 | +6           | +3           | +3         |
+
+**Countersong:** Counter the effects of hostile sound, whether songs, chants, wails, or even magical commands or suggestions (but not spells that merely have verbal components). Beginning the Countersong requires an action and a Music skill check. While you continue to sing and concentrate on the Countersong, the result of that check applies each round. Alternatively, you may spend another action to begin it again and make a new check.
+
+If your Music check equals or exceeds the save DC of a sound-dependent attack, it is nullified for all allies within 30 feet (including yourself) as long as you sustain the Countersong. Countersong has no effect against attacks that do not allow saves. You can sustain the performance for up to 10 rounds without rest.
 
 **Discerning Ear:** You are adept at sifting tavern-talk and street-gossip. When gathering rumors, you uncover twice the usual number, and none are ever wholly false.
 
@@ -399,17 +472,27 @@ Bard
 
 **Rarity:** Very Rare (10%)
 
-**Specialized Skills:** As base Bard, plus Climbing, Dancing, Hiding, Jumping, and Sleight of Hand.
+**Armors:** Light
 
-**Proficient Skills:** As base Bard, plus Ancient Languages, Legendry, Listening, and Music.
+**Shields:** Buckler only
+
+**Weapons:** Simple only
+
+**Specialized Skills:** Climbing, Dancing, Hiding, Jumping, Listening, Sleight of Hand
+
+**Proficient Skills:** Ancient Languages, Bludgeon, Bow, Curved Sword, Dagger, Hand-to-Hand, Legendry, Music, Poetry, Sleight of Hand, Sling, Spear, Staff, Straight Sword, Throwing, Whip
 
 **Spellcasting [2nd level]:** Cast magic spells from the Jester list, which must be learned from books or scrolls. Does not add a spell of their choice when increasing in level. Maintains a spell book written in an abbreviated argot only understandable by the Jester.
 
+TODO Jester spells and Bard spells per level table, rewrite classes to standardize the minimal "base" class info and not care about repetition in subclasses
+
 **Read Scrolls [2nd level]:** Can read magic or illusionist scrolls.
 
-**Joking:** like Bardic Influence but can also choose to influence the crowd's reaction to something or someone else in the negative direction. However, if the audience makes their save by 5 or more, not only does the effect fail but their reaction to the Jester worsens by 1 step. At level 6+, can plant a suggestion in the audience's mind (as per the _suggestion_ spell).
+**Discerning Ear:** You are adept at sifting tavern-talk and street-gossip. When gathering rumors, you uncover twice the usual number, and none are ever wholly false.
 
-**Jesting:** like Rally Allies but a debuff for the enemies (withins 30') instead of a buff for allies. No save. Must concentrate on the effect, and only affects enemies while it is performed. The Jester can't cast spells or use psionic powers or Tumble/Juggle (other Jester ability that allows them to dodge an attack) but they can attack while Jestering.
+**Joking:** like Bardic Influence but can also choose to influence the crowd's reaction to something or someone else in the negative direction. However, if the audience makes their save by 5 or more, not only does the effect fail but their reaction to the Jester worsens by 1 step.
+
+**Jesting:** like Rally Allies but a debuff for the enemies (within 30 ft.) instead of a buff for allies. No save. Must concentrate on the effect, and only affects enemies while it is performed. The Jester can not cast spells or use psionic powers or Tumble/Juggle (other Jester ability that allows them to dodge an attack) but they can attack while Jestering.
 
 **Tumbling:** allows Jester to make a Reflex saving throw and use the result instead of touch AC for one attack against them per round. There are otherwise no restrictions on the ability (can attack in the same round, cast spells etc., but using this ability stops the Jester's Jesting performance).
 
@@ -417,11 +500,13 @@ Bard
 
 **Juggling:** make Reflex save, if equal to better than attack roll, catch hand-hurled missiles, if better by 5 or more, get a free throw back at the thrower.
 
-**Firebreathing:** Can blow into a torch and do 1d6 damage enemies 5' in front. But has 2/6 chance of extinguishing torch.
+**Firebreathing:** Can blow into a torch or other small, open flame and do 1d6 damage enemies 5 ft. in front. But has a 50% chance of extinguishing the flame.
 
 **Taunt:** Force an enemy to attack you (Will negates). At 3rd level, can use your ventriloquism to force them to attack another ally within 30' instead of you.
 
-**Ventriloquism:** Can make their voice appear to originate from a different location within 30'. At 3rd level, can be combined with Taunt to force enemies to attack a different ally.
+**Ventriloquism:** Can make their voice appear to originate from a different location within 30 ft. At 3rd level, can be combined with Taunt to force enemies to attack a different ally.
+
+**Warcaster:** You can cast spells without risk of failure while wearing armor you are proficient with.
 
 ### Skald
 
@@ -437,16 +522,28 @@ Bard
 
 **Proficient Skills:** As base Bard, plus Ancient Languages, Legendry, Listening, and Music.
 
-**Melodic Charm:** Perform music or poetry to sway the mood of an audience. They must be able to hear and understand you, and must not be engaged in combat. If they fail a Will save, they remain attentive for 10 minutes, after which their Reaction improves by one step (e.g. from Cautious to Friendly). This ability can affect the same audience only once.
+**Sway Crowd:** Perform music or poetry to sway the mood of an audience. They must be able to hear and understand you, and must not be engaged in combat. If they fail a Will save, they remain attentive for 10 minutes, after which their Reaction improves by one step (_Example:_ from Cautious to Friendly). This ability can affect the same audience only once.
 
-**Battle Chant:** can attack and sing at the same time, different effects?
+**Drápavísur (Inspiring Verse):** Bolster your companions before battle by singing heroic songs or telling inspiring tales of their coming victory. All must be aware of the upcoming battle and the general nature of your foe must be known. The performance takes 3 rounds, and your audience must be able to hear and understand you. When complete, you and they receive a bonus of +2 to morale and +1 to to-hit rolls and saves, which lasts a number of rounds equal to your Bard level (minimum of 3 rounds).
 
-**Countersong:** Counter the effects of hostile sound, whether songs, chants, wails, or even commands or suggestions from spells (but not spells that merely have verbal components). While performing the Countersong, you must concentrate and make a Music check each round. Any creature within 30' (including yourself) that is affected by a sonic or language-dependent magical attack may use the better of its own saving throw result or your Music check. Creatures already affected by such an attack gain another saving throw each round they hear the countersong, but must use your Music check result for the save. Countersong has no effect against attacks that do not allow saves. You can maintain the countersong for up to 10 rounds, after which you require a 10-minute rest before using it again.
+In addition, you can continue chanting during the battle to give yourself and any allies within 30' affected by your words an additional bonus of +1 to AC and damage. This chant may be ceased and taken up again at any point while the effect of your _Drápavísur_ lasts.
 
-**Discerning Ear:** You are adept at sifting tavern-talk and street-gossip. When gathering rumors, you uncover twice the usual number, and none are ever wholly false.
+**Countersong:** Counter the effects of hostile sound, whether songs, chants, wails, or even commands or suggestions from spells (but not spells that merely have verbal components). While performing the Countersong, you must concentrate and make a Music check each round. Any creature within 30 ft. (including yourself) that is affected by a sonic or language-dependent magical attack may use the better of its own saving throw result or your Music check. Creatures already affected by such an attack gain another saving throw each round they hear the countersong, but must use your Music check result for the save. Countersong has no effect against attacks that do not allow saves. You can maintain the countersong for up to 10 rounds, after which you require a 10-minute rest before using it again.
 
-**Heitstrenging (Oathbinding):**
+**Heitstrenging (Oathbinding):** If present to record and verify the oath, allows other party members to gain bonus XP for promising to achieve something and then doing it. The oath must be made in front of an audience of status and influence, must requires an adventure, and must be specific and time-bound. Oaths are individual, and a party member can have only one active at a time. DM decides whether it is worth 10, 20 or 30% current XP (when making the oath, not when fulfilling it) (minimum 100/200/300 XP) based on following:
 
-**Níðvísur (Insulting Verse):** -- curses, equal to power words
+- achievable in 1 adventure or does not substantially increase risk - 10%
+- likely requires multiple adventures or substantially increases risk - 20%
+- likely requires multiple adventures and substantially increases risk - 30%
+
+**Níðvísur (Insulting Verse):** -- curses, spell-like ability equal to power words, use 3x/day (TODO 1x/day each or 3x any?)
+
+- power word sleep {pain? fear? fatigue?} (lvl 3)
+- power word silence (lvl 6)
+- power word stun (lvl 9)
+- power word blind (lvl 12)
+- power word kill (lvl 15)
+
+**Ljóð:** TODO rune magic in the form of songs, review list of runes from Vikings and Giantcraft (also any song/rune magic in Wizards/Priests compendium)
 
 TODO a Soldier origin, and revise skill frequencies (category = frequency if possible)

@@ -18,22 +18,22 @@ Making contact with a hidden creature, including an attack that beats their touc
 
 Make a Jump check to leap across a gap, up to a ledge, or over a hazard. If you do not have at least 10 feet of movement to make a running jump, apply a –5 penalty to the check.
 
-**Long Jump:** To clear a horizontal distance, roll against `DC = distance in feet – 3`. E.g. jumping 10 feet requires a DC 7 check. If you are leaping over a gap and fail by 5 or less, make a Reflex save to grab the ledge.
+**Long Jump:** To clear a horizontal distance, roll against `DC = distance in feet – 3`. _Example:_ jumping 10 feet requires a DC 7 check. If you are leaping over a gap and fail by 5 or less, make a Reflex save to grab the ledge.
 
-**High Jump:** To reach a vertical height, roll against `DC = (desired height – standing reach) × 5`. See the table below for standing reach by character size. E.g. a Medium creature (7' reach) jumping to grab a 10' high ledge rolls against DC 15.
+**High Jump:** To reach a vertical height, roll against `DC = (desired height – standing reach) × 5`. See the table below for standing reach by character size. _Example:_ a Medium creature (7 ft. reach) jumping to grab a 10 ft. high ledge rolls against DC 15.
 
 ### Standing Reach by Character Size
 
 |  Size  | Standing Reach |
 | :----: | :------------: |
-|  Tiny  |       3'       |
-| Small  |       5'       |
-| Medium |       7'       |
-| Large  |       9'       |
+|  Tiny  |     3 ft.      |
+| Small  |     5 ft.      |
+| Medium |     7 ft.      |
+| Large  |     9 ft.      |
 
 ## Listen
 
-As an action, listen closely for suspicious sounds within 60'. Until you take a different action, use the higher of your active Listen check and your passive Listen score to detect sneaking creatures. Listen checks suffer a –2 penalty beyond 30 feet and a –5 penalty beyond 60 feet.
+As an action, listen closely for suspicious sounds within 60 ft.. Until you take a different action, use the higher of your active Listen check and your passive Listen score to detect sneaking creatures. Listen checks suffer a –2 penalty beyond 30 ft. and a –5 penalty beyond 60 ft.
 
 A successful check while actively Listening reveals more detail than a passive check. You might identify a sound specifically as footsteps, or understand specific words instead of just detecting speech.
 
@@ -43,7 +43,7 @@ As an action, sweep the area around you for hidden creatures. Compare your Searc
 
 ## Spot
 
-As an action, scan for hidden creatures. Choose a direction and make a Spot check, comparing it to the Hide checks of any creatures hiding in a cone-shaped area. On a success, you reveal their appearance. Spot checks suffer a –2 penalty beyond 60 feet and a –5 penalty beyond 120 feet.
+As an action, scan for hidden creatures. Choose a direction and make a Spot check, comparing it to the Hide checks of any creatures hiding in a cone-shaped area. On a success, you reveal their appearance. Spot checks suffer a –2 penalty beyond 60 ft. and a –5 penalty beyond 120 ft.
 
 A passive Spot check is made with your peripheral vision. On a success, you notice something suspicious but are not sure what it is. A successful active check reveals the identity of the creature or object you have spotted.
 
@@ -53,6 +53,6 @@ As part of your movement, make a Sneak check to avoid revealing your location. C
 
 While Sneaking, your movement is limited to one-third normal. Keep note of your Sneak check and compare it to the passive Listen checks of any new enemies who might hear you, or to the Listen checks of any creatures actively listening for you. Use the same Sneak check until you are interrupted or conditions change in a way that affects your sneaking.
 
-If the terrain would leave obvious tracks, like snow or thick dust, make another Sneak check at the same time to obscure your tracks. Compare this check to the highest passive Spot among creatures within 30' that can see your path. On a failure, they see your tracks and know where you went.
+If the terrain would leave obvious tracks, like snow or thick dust, make another Sneak check at the same time to obscure your tracks. Compare this check to the highest passive Spot among creatures within 30 ft. that can see your path. On a failure, they see your tracks and know where you went.
 
 The GM may adjust the DC based on how difficult the terrain is to move across quietly. For mildly favorable or unfavorable terrain (like soft carpeting or dry leaves), apply a modifier or –2 or +2. For extreme conditions (like broken glass or part of your path passes through a _silence_ spell), apply –5 or +5. The modifier only applies if the terrain covers at least half your movement path.
