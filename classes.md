@@ -59,7 +59,7 @@ _A stalwart champion of the battlefield._
 
 **Multi-Attack:** Attack twice at 7th level, and three times at 13th level.
 
-**Stronghold:** At 9th level, you are eligible to be granted the title of Lord and awarded a domain by a patron or liege. You may establish a stronghold by constructing a castle, which attracts 3d6 x 5 loyal soldiers, including one captain of level 1–2 for every ten soldiers and a castellan of level 5–7. Peasant families settle the domain and generate revenue based on the land’s size and quality.
+**Stronghold:** At 9th level, you're eligible to be granted the title of Lord and awarded a domain by a patron or liege. You may establish a stronghold by constructing a castle, which attracts 3d6 x 5 loyal soldiers, including one captain of level 1–2 for every ten soldiers and a castellan of level 5–7. Peasant families settle the domain and generate revenue based on the land’s size and quality.
 
 ### Berserker
 
@@ -77,11 +77,11 @@ _A terrifying warrior who fights with reckless abandon._
 
 **Specialized Skills:** Axe, Bludgeon, Bow, Crossbow, Curved Sword, Dagger, Flail, Hand-to-Hand, Polearm, Sling, Spear, Staff, Straight Sword, Throwing, Whip
 
-**Berserkergang (Frenzy):** Once a day per 4 levels, you can drive yourself into a terrible rage, howling, biting your shield, or striking your own flesh. Achieving this state is a full-round action and you must be in combat or know that battle is imminent. While berserk, you gain an extra attack each round, immunity to mind-affecting attacks, and temporary HP and FP of 5 + 2/level. You cannot cast spells, use psionic powers, take a defensive stance, or retreat from battle. The frenzy lasts until the battle ends or a maximum number of rounds equal to your Constitution score, after which you lose HP and FP equal to the temporary bonus, which may result in long-term fatigue or unconsciousness.
+**Berserkergang (Frenzy):** Once a day per 4 levels, you can drive yourself into a terrible rage, howling, biting your shield, or striking your own flesh. Achieving this state requires an action and you must be in combat or know that battle is imminent. While berserk, you gain an extra attack each round, immunity to mind-affecting attacks, and temporary HP and FP of 5 + 2/level. You can't cast spells, use psionic powers, take a defensive stance, or retreat from battle. The frenzy lasts until the battle ends, after which you lose HP and FP equal to the temporary bonus, which may result in long-term fatigue or unconsciousness.
 
 **Multi-Attack:** Attack twice at 7th level, and three times at 13th level.
 
-**Stronghold:** At 9th level, you are eligible to be granted the title of Lord and awarded a domain by a patron or liege. You may establish a stronghold by constructing a castle, which attracts 3d6 x 5 loyal soldiers, including one captain of level 1–2 for every ten soldiers and a castellan of level 5–7. Peasant families settle the domain and generate revenue based on the land’s size and quality.
+**Stronghold:** At 9th level, you're eligible to be granted the title of Lord and awarded a domain by a patron or liege. You may establish a stronghold by constructing a castle, which attracts 3d6 x 5 loyal soldiers, including one captain of level 1–2 for every ten soldiers and a castellan of level 5–7. Peasant families settle the domain and generate revenue based on the land’s size and quality.
 
 ### Samurai
 
@@ -107,7 +107,7 @@ _A servant of honor, bound to duty and ready to die._
 - **Composure:** Hold your emotions steady and never be distracted from your task. Meet the enemy with neither rashness nor hesitation.
 - **Courage:** To live is to die; accept this and you can never fail, for death is not failure. To die well is the highest honor and greatest service.
 
-The Samurai's way of life (_do_) and combat arts (_jutsu_) are intrinsically linked. One who fails to live rightly loses their status and becomes a _Ronin_. Ronin lose all Samurai abilities until the midpoint of their next level. During this time, they must follow their code strictly or lose their abilities forever.
+The Samurai's way of life (_do_) and combat arts (_jutsu_) are intrinsically linked. One who fails to live rightly loses their status and becomes a _Ronin_. Ronin lose all progress towards their next level and lose all Samurai abilities until they achieve their next level. During this time, they must follow their code strictly or lose their abilities forever.
 
 **Fearless:** Immune to fear effects.
 
@@ -125,7 +125,7 @@ The Samurai's way of life (_do_) and combat arts (_jutsu_) are intrinsically lin
 
 **Multi-Attack:** Attack twice at 7th level, and three times at 13th level.
 
-**Stronghold:** At 9th level, you are eligible to be granted the title of Lord and awarded a domain by a patron or liege. You may establish a stronghold by constructing a castle, which attracts 3d6 x 5 loyal soldiers, including one captain of level 1–2 for every ten soldiers and a castellan of level 5–7. Peasant families settle the domain and generate revenue based on the land’s size and quality.
+**Stronghold:** At 9th level, you're eligible to be granted the title of Lord and awarded a domain by a patron or liege. You may establish a stronghold by constructing a castle, which attracts 3d6 x 5 loyal soldiers, including one captain of level 1–2 for every ten soldiers and a castellan of level 5–7. Peasant families settle the domain and generate revenue based on the land’s size and quality.
 
 ## Clerics
 
@@ -426,7 +426,7 @@ Bard
 
 **Proficient Skills:** Bludgeon, Bow, Curved Sword, Dagger, Hand-to-Hand, Sleight of Hand, Sling, Spear, Staff, Straight Sword, Throwing, Whip
 
-**Spellsongs:** Your spells take the form of magical songs. You do not keep a spellbook and can cast any of your known songs without prior preparation. The number of songs you know increases with level, as shown on the table below. At 1st level, your known songs are determined randomly. Starting at 2nd level, when you gain an additional song, choose one from the Bard Songs list and attempt a [Learn Spell]() check to master it. If you fail, you learn a random song instead.
+**Spellsongs:** Your spells take the form of magical songs. You don't keep a spellbook and can cast any of your known songs without prior preparation. The number of songs you know increases with level, as shown on the table below. At 1st level, your known songs are determined randomly. Starting at 2nd level, when you gain an additional song, choose one from the Bard Songs list and attempt a [Learn Spell]() check to master it. If you fail, you learn a random song instead.
 
 | Level | Songs per Day |     |     |     |     | Songs Known |     |     |     |     |
 | ----: | ------------: | --: | --: | --: | --: | ----------: | --: | --: | --: | --: |
@@ -448,23 +448,23 @@ Bard
 |    15 |             3 |   3 |   3 |   3 |   3 |           6 |   6 |   6 |   6 |   4 |
 |    16 |             4 |   3 |   3 |   3 |   3 |           7 |   6 |   6 |   6 |   5 |
 
-**Vocal Mastery:** All Bard spells require singing to cast them, and many require singing (and concentration) to sustain their effect. Initially, spellsinging must be accompanied by playing a musical instrument, which occupies the hands and limits movement to 1/3 MV. As Bards advance in level, they gradually learn to cast and sustain spells with their voice alone. At 4th level, they can sing 1st-level spells without accompaniment; at 7th, 2nd-level spells; at 10th, 3rd-level spells; at 13th, 4th-level spells; and at 16th level, they can power any of their spells by singing alone.
+**Vocal Mastery:** All Bard spells require singing to cast them, and many require singing (and concentration) to sustain their effect. Initially, spellsinging must be accompanied by playing a musical instrument, which occupies your hands and limits movement to 1/3 MV. As you advance in level, you gradually learn to cast and sustain spells with your voice alone. At 4th level, you can sing 1st-level spells without accompaniment; at 7th, 2nd-level spells; at 10th, 3rd-level spells; at 13th, 4th-level spells; and at 16th level, you can power any of your spells by singing alone.
 
-**Sway Crowd:** Play music or recite poetry to sway the mood of an audience. They must be able to hear you, and must not be engaged in combat. Make a Music or Poetry skill check (your choice). The result is the DC for a Will save by your audience. If their save fails, they remain attentive for 10 minutes, after which their Reaction improves by one step (_Example:_ from Cautious to Friendly).
+**Sway Crowd:** Play music or recite poetry to sway the mood of an audience. They must be able to hear you and must not be engaged in combat. Make a Music or Poetry skill check (your choice). The result is the DC for a Will save by your audience. If their save fails, they remain attentive for 10 minutes, after which their Reaction improves by one step (_Example:_ from Cautious to Friendly).
 
-**Inspiring Verse:** Steel your companions before battle by reciting epic poetry of heroes past. All must be aware of the upcoming battle and the general nature of your foe must be known. The performance takes 3 rounds, and your audience must be able to hear and understand you. When complete, you and your allies gain bonuses for a number of rounds equal to 2 + your Bard level, based on the result of a Poetry skill check:
+**Inspiring Verse:** Declaim epic poetry of heroes past to steel your companions before battle. All must be aware of the upcoming battle and the general nature of your foe must be known. The performance takes 3 rounds, and your audience must be able to hear and understand you. When complete, you and your allies gain bonuses for a number of rounds equal to 2 + your Bard level, based on the result of your Poetry skill check:
 
 | Poetry Check Result | Morale Bonus | Attack Bonus | Save Bonus |
 | ------------------- | ------------ | ------------ | ---------- |
-| <15                 | +2           | +1           | +1         |
+| < 15                | +2           | +1           | +1         |
 | 15–19               | +4           | +2           | +2         |
 | 20+                 | +6           | +3           | +3         |
 
-**Countersong:** Counter the effects of hostile sound, whether songs, chants, wails, or even magical commands or suggestions (but not spells that merely have verbal components). Beginning the Countersong requires an action and a Music skill check. While you continue to sing and concentrate on the Countersong, the result of that check applies each round. Alternatively, you may spend another action to begin it again and make a new check.
+**Countersong:** Counter the effects of hostile sound, whether songs, chants, wails, or even magical commands or suggestions (but not spells that merely have verbal components). Beginning the Countersong requires an action and a Music skill check. While you continue to sing and concentrate on the Countersong, the result of your check applies each round. Alternatively, you may spend another action to begin again and make a new check.
 
-If your Music check equals or exceeds the save DC of a sound-dependent attack, it is nullified for all allies within 30 feet (including yourself) as long as you sustain the Countersong. Countersong has no effect against attacks that do not allow saves. You can sustain the performance for up to 10 rounds without rest.
+If your Music check equals or exceeds the save DC of a sound-dependent attack, it's nullified for all allies within 30 feet (including yourself) as long as you sustain the Countersong. Countersong has no effect against attacks that do not allow saves. You can sustain it for up to 10 rounds without rest.
 
-**Discerning Ear:** You are adept at sifting tavern-talk and street-gossip. When gathering rumors, you uncover twice the usual number, and none are ever wholly false.
+**Discerning Ear:** You're adept at sifting tavern-talk and street-gossip. When gathering rumors, you uncover twice the usual number and none are ever wholly false.
 
 ### Jester
 
