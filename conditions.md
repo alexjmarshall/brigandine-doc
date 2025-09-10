@@ -23,3 +23,8 @@ You can take a partial move action but not a standard action while regaining you
 ### Stunned
 
 You drop everything held, can't take any actions, and are attacked at +2.
+
+### Squeezed
+
+TODO penalty to attack unless thrusting.
+also need benefit to shield wall -- treat as cover
