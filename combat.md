@@ -596,3 +596,8 @@ When you incapacitate an enemy with a melee attack, make another attack with the
 - _Two-Weapon Fighting:_ Each hand triggers its own chain of attacks. Cleaves triggered by a main-hand attack are made with the main-hand, and those triggered by an off-hand attack are made with the off-hand.
 
 - instead of flat bonus HP for origin, add from d4 to d10 extra
+
+## Throwing
+
+- can throw any Tiny-Medium weapon, but if not designed to be thrown, -1 damage with only 20 ft. range
+- range penalty: divide max range by 10 for increment. Divide distance to target by increment for penalty to-hit.

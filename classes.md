@@ -426,7 +426,23 @@ Bard
 
 **Proficient Skills:** Bludgeon, Bow, Curved Sword, Dagger, Hand-to-Hand, Sleight of Hand, Sling, Spear, Staff, Straight Sword, Throwing, Whip
 
-**Spellsongs:** Your spells take the form of magical songs. You don't keep a spellbook and can cast any of your known songs without prior preparation. The number of songs you know increases with level, as shown on the table below. At 1st level, your known songs are determined randomly. Starting at 2nd level, when you gain an additional song, choose one from the Bard Songs list and attempt a [Learn Spell]() check to master it. If you fail, you learn a random song instead.
+**Countersong:** Counter the effects of hostile sound, whether songs, chants, wails, or even magical commands or suggestions (but not spells that merely have verbal components). Beginning the Countersong requires an action and a Music skill check. While you continue to sing and concentrate on the Countersong, the result of your check applies each round. Alternatively, you may spend another action to begin again and make a new check.
+
+If your Music check equals or exceeds the save DC of a sound-dependent attack, it's nullified for all allies within 30 feet (including yourself) as long as you sustain the Countersong. Countersong has no effect against attacks that do not allow saves. You can sustain it for up to 10 rounds without rest.
+
+**Discerning Ear:** You're adept at sifting tavern-talk and street-gossip. When gathering rumors, you uncover twice the usual number and none are ever wholly false.
+
+**Inspiring Verse:** Declaim epic poetry of heroes past to steel your companions before battle. All must be aware of the upcoming battle and the general nature of your foe must be known. The performance takes 3 rounds, and your audience must be able to hear and understand you. When complete, you and your allies gain bonuses for a number of rounds equal to 2 + your Bard level, based on the result of your Poetry skill check:
+
+| Poetry Check Result | Morale Bonus | Attack Bonus | Save Bonus |
+| ------------------- | ------------ | ------------ | ---------- |
+| < 15                | +2           | +1           | +1         |
+| 15–19               | +4           | +2           | +2         |
+| 20+                 | +6           | +3           | +3         |
+
+**Silver Tongue:** Play music or recite poetry to sway the mood of an audience. They must be able to hear you and must not be engaged in combat. Make a Music or Poetry skill check (your choice). The result is the DC for a Will save by your audience. If their save fails, they remain attentive for 10 minutes, after which their Reaction improves by one step (_Example:_ from Cautious to Friendly).
+
+**Spellsongs:** Your spells take the form of magical songs. You don't keep a spellbook and can cast any of your known songs without prior preparation. The number of songs you know increases with level, as shown on the table below. At 1st level, your known songs are determined randomly. Starting at 2nd level, when you gain an additional song, make a [Learn Spell]() check. If you succeed, you may choose one from the Bard Songs list. If you fail, you learn a random song instead.
 
 | Level | Songs per Day |     |     |     |     | Songs Known |     |     |     |     |
 | ----: | ------------: | --: | --: | --: | --: | ----------: | --: | --: | --: | --: |
@@ -448,23 +464,7 @@ Bard
 |    15 |             3 |   3 |   3 |   3 |   3 |           6 |   6 |   6 |   6 |   4 |
 |    16 |             4 |   3 |   3 |   3 |   3 |           7 |   6 |   6 |   6 |   5 |
 
-**Vocal Mastery:** All Bard spells require singing to cast them, and many require singing (and concentration) to sustain their effect. Initially, spellsinging must be accompanied by playing a musical instrument, which occupies your hands and limits movement to 1/3 MV. As you advance in level, you gradually learn to cast and sustain spells with your voice alone. At 4th level, you can sing 1st-level spells without accompaniment; at 7th, 2nd-level spells; at 10th, 3rd-level spells; at 13th, 4th-level spells; and at 16th level, you can power any of your spells by singing alone.
-
-**Sway Crowd:** Play music or recite poetry to sway the mood of an audience. They must be able to hear you and must not be engaged in combat. Make a Music or Poetry skill check (your choice). The result is the DC for a Will save by your audience. If their save fails, they remain attentive for 10 minutes, after which their Reaction improves by one step (_Example:_ from Cautious to Friendly).
-
-**Inspiring Verse:** Declaim epic poetry of heroes past to steel your companions before battle. All must be aware of the upcoming battle and the general nature of your foe must be known. The performance takes 3 rounds, and your audience must be able to hear and understand you. When complete, you and your allies gain bonuses for a number of rounds equal to 2 + your Bard level, based on the result of your Poetry skill check:
-
-| Poetry Check Result | Morale Bonus | Attack Bonus | Save Bonus |
-| ------------------- | ------------ | ------------ | ---------- |
-| < 15                | +2           | +1           | +1         |
-| 15–19               | +4           | +2           | +2         |
-| 20+                 | +6           | +3           | +3         |
-
-**Countersong:** Counter the effects of hostile sound, whether songs, chants, wails, or even magical commands or suggestions (but not spells that merely have verbal components). Beginning the Countersong requires an action and a Music skill check. While you continue to sing and concentrate on the Countersong, the result of your check applies each round. Alternatively, you may spend another action to begin again and make a new check.
-
-If your Music check equals or exceeds the save DC of a sound-dependent attack, it's nullified for all allies within 30 feet (including yourself) as long as you sustain the Countersong. Countersong has no effect against attacks that do not allow saves. You can sustain it for up to 10 rounds without rest.
-
-**Discerning Ear:** You're adept at sifting tavern-talk and street-gossip. When gathering rumors, you uncover twice the usual number and none are ever wholly false.
+**Vocal Mastery:** All Bard spells require singing to cast them, and many require singing (and concentration) to sustain their effect. Initially, spellsinging must be accompanied by playing a musical instrument, which occupies your hands and limits movement to 1/3 MV. As you advance in level, you gradually learn to cast and sustain spells with your voice alone. At 4th level, you can sing 1st-level spells without accompaniment; at 7th, 2nd-level spells; at 10th, 3rd-level spells; at 13th, 4th-level spells; and at 16th level, you can power any of your spells by singing alone. TODO replace with Music skill determining casting level for all spells, and holding a music instrument boosts Music skill?
 
 ### Jester
 
@@ -492,6 +492,8 @@ TODO Jester spells and Bard spells per level table, rewrite classes to standardi
 
 **Joking:** like Bardic Influence but can also choose to influence the crowd's reaction to something or someone else in the negative direction. However, if the audience makes their save by 5 or more, not only does the effect fail but their reaction to the Jester worsens by 1 step.
 
+TODO Sense Motive, Pranks
+
 **Jesting:** like Rally Allies but a debuff for the enemies (within 30 ft.) instead of a buff for allies. No save. Must concentrate on the effect, and only affects enemies while it is performed. The Jester can not cast spells or use psionic powers or Tumble/Juggle (other Jester ability that allows them to dodge an attack) but they can attack while Jestering.
 
 **Tumbling:** allows Jester to make a Reflex saving throw and use the result instead of touch AC for one attack against them per round. There are otherwise no restrictions on the ability (can attack in the same round, cast spells etc., but using this ability stops the Jester's Jesting performance).
@@ -504,7 +506,7 @@ TODO Jester spells and Bard spells per level table, rewrite classes to standardi
 
 **Taunt:** Force an enemy to attack you (Will negates). At 3rd level, can use your ventriloquism to force them to attack another ally within 30' instead of you.
 
-**Ventriloquism:** Can make their voice appear to originate from a different location within 30 ft. At 3rd level, can be combined with Taunt to force enemies to attack a different ally.
+**Ventriloquism:** Can make their voice appear to originate from a different location within 30 ft. Can be combined with Taunt to force enemies to attack a different ally.
 
 **Warcaster:** You can cast spells without risk of failure while wearing armor you are proficient with.
 

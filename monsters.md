@@ -43,7 +43,7 @@ HD = age, size based on HP.
 - Old: highest HD listed +2
 - Ancient: highest HD listed + 4 (at least Average)
 
-### Dragon Size TODO relative to absolute H, e.g. 40/60/80/100?
+### Dragon Size
 
 - Large: up to 30 HP - 1 x 2 squares
 - Huge: 31-60 HP - 2 x 3 squares
@@ -73,4 +73,4 @@ Storm - size G, 2d12 (C+ sword) + 10
 ## HP and Base Attack Bonus Scaling
 
 - HD 6-10: d8, HD 11-15: d10, HD 16+: d12
-- Base Attack Bonus: +1/HD up to 10, +1/2 HD after 10. E.g. HD 3 = +3, HD 19 = +14
+- Base Attack Bonus: +1/HD up to 10, +1/2 HD after 10. E.g. HD 3 = +3, HD 19 = +14. HP mod (e.g. HD 4+1) = round up HD.

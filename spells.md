@@ -30,3 +30,9 @@ logic when reading a book/scroll
   - Magic: abstruse formulae, requires roll to learn spell for everyone
 
 - cleric scrolls -- anyone can read
+
+TODO remove Ventriloquism from Illusionist spell 2nd level (they already get Audible Glamer at 1st which is better)
+
+## Spellcasting Level
+
+- generally, a reference to level in the spell description that determines who or how many enemies it can affect refers to character level, while a reference to level that modifies duration/range/area/damage etc. refers to skill level
