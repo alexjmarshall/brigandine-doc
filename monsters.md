@@ -34,25 +34,43 @@ HD \* 100, +50% base per \*
 
 ## Dragons
 
-Always use highest of HD range. Age Categories are young (2 HP/HD, size L, \*), adult (4 HP/HD, size H, \*\*), old (6 HP/HD, size H, \*\*\*), and ancient (8 HP/HD, size G, \*\*\*\*).
+HD = age, size based on HP.
+
+### Age
+
+- Young: highest HD listed -2 (max size Big)
+- Adult: highest HD listed
+- Old: highest HD listed +2
+- Ancient: highest HD listed + 4 (at least Average)
+
+### Dragon Size TODO relative to absolute H, e.g. 40/60/80/100?
+
+- Large: up to 30 HP - 1 x 2 squares
+- Huge: 31-60 HP - 2 x 3 squares
+- Gargantuan: 60+ HP - 3 x 4 squares
 
 White and Black seldom live beyond old age in the wild.
 
-Modify base claw/bite damage by +1 for adult, +2 for old, +3 for ancient.
+Modify base claw/bite damage by +1 for Huge, +2 for Gargantuan.
 
-Adult and up have fear aura when flying/charging, but save bonus of +5/+2 for adult and old.
+Adult and up have fear aura when flying/charging, but targets get a save bonus of +5/+2 for Adult/Old.
 
-Size H and G dragons can tail slap behind them (claw damage as blunt to 2 or 3 rear targets, respectively).
+Size H and G dragons can tail slap behind them (claw damage as blunt to 2-3 rear targets, respectively).
 
-Size H dragons can attempt to grab and carry an enemy up to size L. Size G can grab two at once.
+Size H and G dragons can attempt to grab and carry an enemy up to size L (1-2 targets, respectively).
 
 ## Giants
 
 Give Str damage to weapons
-Ogre - size L, d8 (L spear) + 4, HD 4+1
-Hill - size H, d10 (H club) + 5, HD 8+2
-Stone - size H, d10 (H club) + 6, HD 9+2
-Ice - size H, 2d8 (G axe) + 7, HD 10+3
-Fire - size H, 2d10 (C sword) + 8, HD 11+3
-Cloud - size H, 2d10 (C mace/morningstar) + 9, HD 12+4
-Storm - size G, 2d12 (C+ sword) + 10, HD 15+4\*
+Ogre - size L, d8 (L spear) + 4
+Hill - size H, d10 (H club) + 5
+Stone - size H, d10 (H club) + 6
+Ice - size H, 2d8 (G axe) + 7
+Fire - size H, 2d10 (C sword) + 8
+Cloud - size H, 2d10 (C mace/morningstar) + 9
+Storm - size G, 2d12 (C+ sword) + 10
+
+## HP and Base Attack Bonus Scaling
+
+- HD 6-10: d8, HD 11-15: d10, HD 16+: d12
+- Base Attack Bonus: +1/HD up to 10, +1/2 HD after 10. E.g. HD 3 = +3, HD 19 = +14
