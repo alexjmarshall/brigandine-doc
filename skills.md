@@ -56,3 +56,13 @@ While Sneaking, your movement is limited to one-third normal. Keep note of your 
 If the terrain would leave obvious tracks, like snow or thick dust, make another Sneak check at the same time to obscure your tracks. Compare this check to the highest passive Spot among creatures within 30 ft. that can see your path. On a failure, they see your tracks and know where you went.
 
 The GM may adjust the DC based on how difficult the terrain is to move across quietly. For mildly favorable or unfavorable terrain (like soft carpeting or dry leaves), apply a modifier or –2 or +2. For extreme conditions (like broken glass or part of your path passes through a _silence_ spell), apply –5 or +5. The modifier only applies if the terrain covers at least half your movement path.
+
+## Origins
+
+Origin sets a skill to Proficient, or if already that or better, a +2 bonus.
+
+- Specialized: +2 start, fast advancement, max 3/2 x level, min 2/3 x level
+- Proficient: +1 start, medium advancement, max 1 x level, min 1/2 x level
+- Untrained Basic: 0 start, slow advancement, max 2/3 level, min 1/3 level
+- Untrained Expert: -2 start, no advancement, does not appear on char sheet
+  - most can't be used at all, but untrained expert weapons can be attacked with
