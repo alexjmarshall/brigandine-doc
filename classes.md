@@ -389,24 +389,24 @@ Bard
 
 **Hit Dice:** d6
 
-| Level | XP Required | Hit Dice | Fort | Ref | Will | Bard Features             | Jester Features | Skald Features |
-| ----: | ----------: | -------: | ---: | --: | ---: | ------------------------- | --------------- | -------------- |
-|     1 |           0 |        1 |   -2 |   1 |    1 | Spellsongs                |                 |                |
-|     2 |         700 |        2 |   -1 |   2 |    2 |                           | Spellcasting    |                |
-|     3 |       2,000 |        3 |    0 |   3 |    3 |                           |                 |                |
-|     4 |       5,000 |        4 |    0 |   3 |    3 | Vocal Mastery (1st level) |                 |                |
-|     5 |      10,000 |        5 |    1 |   4 |    4 |                           |                 |                |
-|     6 |      22,000 |        6 |    2 |   5 |    5 |                           |                 |                |
-|     7 |      40,000 |        7 |    3 |   6 |    6 | Vocal Mastery (2nd level) |                 |                |
-|     8 |      75,000 |        8 |    3 |   6 |    6 |                           |                 |                |
-|     9 |     120,000 |        9 |    4 |   7 |    7 |                           |                 |                |
-|    10 |     180,000 |       10 |    5 |   8 |    8 | Vocal Mastery (3rd level) |                 |                |
-|    11 |     300,000 |       11 |    6 |   9 |    9 |                           |                 |                |
-|    12 |     440,000 |   11 + 2 |    6 |   9 |    9 |                           |                 |                |
-|    13 |     580,000 |   11 + 4 |    7 |  10 |   10 | Vocal Mastery (4th level) |                 |                |
-|    14 |     720,000 |   11 + 6 |    8 |  11 |   11 |                           |                 |                |
-|    15 |     860,000 |   11 + 7 |    9 |  12 |   12 |                           |                 |                |
-|    16 |   1,000,000 |  11 + 10 |    9 |  12 |   12 | Vocal Mastery (5th level) |                 |                |
+| Level | XP Required | Hit Dice | Fort | Ref | Will | Bard Features                             | Jester Features                                                            | Skald Features |
+| ----: | ----------: | -------: | ---: | --: | ---: | ----------------------------------------- | -------------------------------------------------------------------------- | -------------- |
+|     1 |           0 |        1 |   -2 |   1 |    1 | Discerning Ear, Silver Tongue, Spellsongs | Barbed Tongue, Gambols, Discerning Ear, Firebreathing, Taunt, Twisted Mind |                |
+|     2 |         700 |        2 |   -1 |   2 |    2 | Inspiring Verse                           | Dance of Misrule                                                           |                |
+|     3 |       2,000 |        3 |    0 |   3 |    3 | Countersong                               | Ventriloquism                                                              |                |
+|     4 |       5,000 |        4 |    0 |   3 |    3 | Vocal Mastery (1st level)                 |                                                                            |                |
+|     5 |      10,000 |        5 |    1 |   4 |    4 |                                           |                                                                            |                |
+|     6 |      22,000 |        6 |    2 |   5 |    5 |                                           |                                                                            |                |
+|     7 |      40,000 |        7 |    3 |   6 |    6 | Vocal Mastery (2nd level)                 |                                                                            |                |
+|     8 |      75,000 |        8 |    3 |   6 |    6 |                                           | Lord of Misrule, Illusionist Spellcasting                                  |                |
+|     9 |     120,000 |        9 |    4 |   7 |    7 |                                           |                                                                            |                |
+|    10 |     180,000 |       10 |    5 |   8 |    8 | Vocal Mastery (3rd level)                 |                                                                            |                |
+|    11 |     300,000 |       11 |    6 |   9 |    9 |                                           |                                                                            |                |
+|    12 |     450,000 |   11 + 2 |    6 |   9 |    9 |                                           |                                                                            |                |
+|    13 |     600,000 |   11 + 4 |    7 |  10 |   10 | Vocal Mastery (4th level)                 |                                                                            |                |
+|    14 |     750,000 |   11 + 6 |    8 |  11 |   11 |                                           |                                                                            |                |
+|    15 |     900,000 |   11 + 7 |    9 |  12 |   12 |                                           |                                                                            |                |
+|    16 |   1,050,000 |  11 + 10 |    9 |  12 |   12 | Vocal Mastery (5th level)                 |                                                                            |                |
 
 +150,000 XP required and +2 HP each additional level
 
@@ -424,25 +424,26 @@ Bard
 
 **Specialized Skills:** Ancient Languages, Legendry, Listening, Music, Poetry
 
-**Proficient Skills:** Bludgeon, Bow, Curved Sword, Dagger, Hand-to-Hand, Sleight of Hand, Sling, Spear, Staff, Straight Sword, Throwing, Whip
+**Proficient Skills:** Bludgeon, Bow, Curved Sword, Dagger, Hand-to-Hand, Sleight of Hand, Sling, Spear, Staff, Straight Sword, Throwing
 
-**Countersong:** Counter the effects of hostile sound, whether songs, chants, wails, or even magical commands or suggestions (but not spells that merely have verbal components). Beginning the Countersong requires an action and a Music skill check. While you continue to sing and concentrate on the Countersong, the result of your check applies each round. Alternatively, you may spend another action to begin again and make a new check.
+**Countersong [3rd level]:** Counter the effects of hostile sound, whether songs, chants, wails, or even magical commands (but not spells that merely have verbal components). Beginning the Countersong requires an action and a Music skill check. If your result equals or exceeds the save DC of a sound-based attack, the attack is nullified for all allies within 30 feet (including yourself) while you continue to sing. If your Countersong check fails to negate an attack, you may begin again and make a new Music check.
 
-If your Music check equals or exceeds the save DC of a sound-dependent attack, it's nullified for all allies within 30 feet (including yourself) as long as you sustain the Countersong. Countersong has no effect against attacks that do not allow saves. You can sustain it for up to 10 rounds without rest.
+**Discerning Ear:** You are adept at sifting truth from falsehood.
 
-**Discerning Ear:** You're adept at sifting tavern-talk and street-gossip. When gathering rumors, you uncover twice the usual number and none are ever wholly false.
+- _Rumors:_ When gathering rumors, you uncover twice the usual number, and none are ever wholly false.
+- _Insight:_ You passively notice when someone is being evasive, untrustworthy, or acting under coercion or enchantment.
 
-**Inspiring Verse:** Declaim epic poetry of heroes past to steel your companions before battle. All must be aware of the upcoming battle and the general nature of your foe must be known. The performance takes 3 rounds, and your audience must be able to hear and understand you. When complete, you and your allies gain bonuses for a number of rounds equal to 2 + your Bard level, based on the result of your Poetry skill check:
+**Inspiring Verse [2nd level]:** Declaim epic poetry to bolster your companions before battle. All must be aware of the upcoming battle and the general nature of your foe. The performance takes 3 minutes, and your audience must be able to hear and understand you. When complete, you and your allies gain bonuses based on the result of your Poetry skill check:
 
-| Poetry Check Result | Morale Bonus | Attack Bonus | Save Bonus |
-| ------------------- | ------------ | ------------ | ---------- |
-| < 15                | +2           | +1           | +1         |
-| 15–19               | +4           | +2           | +2         |
-| 20+                 | +6           | +3           | +3         |
+| Poetry Skill Check | Morale Bonus | Attack Bonus | Save Bonus |
+| ------------------ | ------------ | ------------ | ---------- |
+| < 15               | +2           | +1           | +1         |
+| 15–19              | +4           | +2           | +2         |
+| 20+                | +6           | +3           | +3         |
 
-**Silver Tongue:** Play music or recite poetry to sway the mood of an audience. They must be able to hear you and must not be engaged in combat. Make a Music or Poetry skill check (your choice). The result is the DC for a Will save by your audience. If their save fails, they remain attentive for 10 minutes, after which their Reaction improves by one step (_Example:_ from Cautious to Friendly).
+**Silver Tongue:** Play music or recite poetry to sway the mood of an audience. They must not be in combat or about to attack you. Make a Music or Poetry skill check (your choice). The result is the DC for a Will save by your audience. On a failed save, your hold their attention for 10 minutes, after which their Reaction improves by 1 step. Note that music requires only animal intelligence in your audience, while poetry requires that they understand your words.
 
-**Spellsongs:** Your spells take the form of magical songs. You don't keep a spellbook and can cast any of your known songs without prior preparation. The number of songs you know increases with level, as shown on the table below. At 1st level, your known songs are determined randomly. Starting at 2nd level, when you gain an additional song, make a [Learn Spell]() check. If you succeed, you may choose one from the Bard Songs list. If you fail, you learn a random song instead.
+**Spellsongs:** Your spells take the form of magical songs. You don't keep a spellbook and can cast any of your known songs without prior preparation. The number of songs you know increases with level, as shown on the table below. At 1st level, your known songs are determined randomly. Starting at 2nd level, when you gain an additional song, make a Music check vs. DC 12 + spell level. If you succeed, you learn a song of your choice of that spell level. If you fail, you learn a random song instead.
 
 | Level | Songs per Day |     |     |     |     | Songs Known |     |     |     |     |
 | ----: | ------------: | --: | --: | --: | --: | ----------: | --: | --: | --: | --: |
@@ -464,7 +465,7 @@ If your Music check equals or exceeds the save DC of a sound-dependent attack, i
 |    15 |             3 |   3 |   3 |   3 |   3 |           6 |   6 |   6 |   6 |   4 |
 |    16 |             4 |   3 |   3 |   3 |   3 |           7 |   6 |   6 |   6 |   5 |
 
-**Vocal Mastery:** All Bard spells require singing to cast them, and many require singing (and concentration) to sustain their effect. Initially, spellsinging must be accompanied by playing a musical instrument, which occupies your hands and limits movement to 1/3 MV. As you advance in level, you gradually learn to cast and sustain spells with your voice alone. At 4th level, you can sing 1st-level spells without accompaniment; at 7th, 2nd-level spells; at 10th, 3rd-level spells; at 13th, 4th-level spells; and at 16th level, you can power any of your spells by singing alone. TODO replace with Music skill determining casting level for all spells, and holding a music instrument boosts Music skill?
+**Vocal Mastery [4th level]:** All spellsongs require singing to cast, and many require continual singing to sustain their effect. Initially, all spellsinging requires the playing of a musical instrument, which occupies the hands and limits movement to 1/3. As you advance in level, you gradually learn to cast and sustain spells with your voice alone. At 4th level, you can sing 1st-level spells without accompaniment; at 7th, 2nd-level spells; at 10th, 3rd-level spells; at 13th, 4th-level spells; and at 16th level, you can power any of your spells by voice alone.
 
 ### Jester
 
@@ -478,37 +479,48 @@ If your Music check equals or exceeds the save DC of a sound-dependent attack, i
 
 **Weapons:** Simple only
 
-**Specialized Skills:** Climbing, Dancing, Hiding, Jumping, Listening, Sleight of Hand
+**Specialized Skills:** Dancing, Jumping, Listening, Sleight of Hand, Poetry
 
-**Proficient Skills:** Ancient Languages, Bludgeon, Bow, Curved Sword, Dagger, Hand-to-Hand, Legendry, Music, Poetry, Sleight of Hand, Sling, Spear, Staff, Straight Sword, Throwing, Whip
+**Proficient Skills:** Ancient Languages, Climbing, Bludgeon, Bow, Curved Sword, Dagger, Hand-to-Hand, Hiding, Legendry, Poetry, Sling, Sneaking, Spear, Staff, Straight Sword, Throwing
 
-**Spellcasting [2nd level]:** Cast magic spells from the Jester list, which must be learned from books or scrolls. Does not add a spell of their choice when increasing in level. Maintains a spell book written in an abbreviated argot only understandable by the Jester.
+**Illusionist Spellcasting [8th level]:** You develop the ability to cast illusionist spells. The number of spells you can memorize and cast per day increases with level, as shown on the table below. Your spells must be learned from books or scrolls; you don't automatically gain spells when advancing in level. Your spellbook is written in an abbreviated argot only you can understand. You can only cast spells from memory, not from scrolls. However, you can cast spells in armor you are proficient with without risk of spell failure.
 
-TODO Jester spells and Bard spells per level table, rewrite classes to standardize the minimal "base" class info and not care about repetition in subclasses
+| Level |   1 |   2 |   3 |
+| ----: | --: | --: | --: |
+|     8 |   1 |   - |   - |
+|     9 |   2 |   - |   - |
+|    10 |   2 |   1 |   - |
+|    11 |   2 |   2 |   - |
+|    12 |   2 |   2 |   1 |
+|    13 |   2 |   2 |   2 |
+|    14 |   3 |   3 |   2 |
+|    15 |   3 |   3 |   3 |
+|    16 |   4 |   4 |   3 |
 
-**Read Scrolls [2nd level]:** Can read magic or illusionist scrolls.
+**Discerning Ear:** You have a keen ability to sift truth from falsehood.
 
-**Discerning Ear:** You are adept at sifting tavern-talk and street-gossip. When gathering rumors, you uncover twice the usual number, and none are ever wholly false.
+- _Rumors:_ When gathering rumors, you uncover twice the usual number, and none are ever wholly false.
+- _Insight:_ You passively notice when someone is being evasive, untrustworthy, or acting under coercion or enchantment.
 
-**Joking:** like Bardic Influence but can also choose to influence the crowd's reaction to something or someone else in the negative direction. However, if the audience makes their save by 5 or more, not only does the effect fail but their reaction to the Jester worsens by 1 step.
+**Barbed Tongue:** With satirical buffoonery, you sow discord as you spread mirth. Your audience must not be in combat or about to attack you. Make a Dancing or Poetry skill check (your choice). The result is the DC for a Will save by your audience. On a failed save, you hold their attention for 10 minutes, after which their Reaction improves by 1 step, and they suffer a -5 penalty on any Loyalty checks made in response to your offers or entreaties. However, if their save succeeded by 5 or more, your jest backfires and their Reaction worsens by 1 step. Note that dancing requires only animal intelligence in your audience, while poetry requires that they understand your words.
 
-TODO Sense Motive, Pranks
+**Gambols:** Performed in reaction to your enemies' movement or attacks, you may use one of these tricks per round.
 
-**Jesting:** like Rally Allies but a debuff for the enemies (within 30 ft.) instead of a buff for allies. No save. Must concentrate on the effect, and only affects enemies while it is performed. The Jester can not cast spells or use psionic powers or Tumble/Juggle (other Jester ability that allows them to dodge an attack) but they can attack while Jestering.
+- **Juggle** When a weapon is thrown at you, you may make a Reflex save against the attack roll. On a successful save, you catch the missile harmlessly. If you succeed by 5 or more, you may immediately hurl it back at the attacker.
+- **Trip:** When a foe moves through your reach, you may make a hand-to-hand attack roll opposed by their Reflex save. On a failed save, you deal no damage but knock them prone.
+- **Tumble:** When attacked in melee, you may make a Reflex save and use the result as your touch AC against the attack. If the attack misses, you tumble 5 ft. in a direction of your choice and dodge the blow. You must have room to move to use this ability.
 
-**Tumbling:** allows Jester to make a Reflex saving throw and use the result instead of touch AC for one attack against them per round. There are otherwise no restrictions on the ability (can attack in the same round, cast spells etc., but using this ability stops the Jester's Jesting performance).
+**Dance of Misrule [2nd level]:** You caper madly about the battlefield, demoralizing and befuddling your foes. The Dance can only be performed in combat. To begin requires an action and a Dancing skill check. Enemies within 15 ft. make a Will save against your Dancing check. On a failed save, they become confused (as per the _confusion_ spell) until they leave the area or you stop dancing. If you begin again and make a new Dancing check, all enemies in the area save again (whether confused or not) and abide by the new result.
 
-**Twisted Mind:** Immune to attacks that cause insanity, and any attempt to read your mind has a percentage chance equal to your Jester level of causing confusion in the mind reader (as per the _confusion_ spell).
+**Lord of Misrule [8th level]:** Initially, sustaining your Dance of Misrule requires your action each round. Starting at 7th level, you can weave attacks and other physical actions into your revelry. Movement remains limited to 1/3, and you can't shoot missile weapons or cast spells with somatic components while dancing.
 
-**Juggling:** make Reflex save, if equal to better than attack roll, catch hand-hurled missiles, if better by 5 or more, get a free throw back at the thrower.
+**Firebreathing:** Exhale into a small open flame to belch forth a fiery gout. Enemies in a 10 ft. cone take 1d6 fire damage (save for half). However, the flame has a 50% chance of being extinguished in the attempt.
 
-**Firebreathing:** Can blow into a torch or other small, open flame and do 1d6 damage enemies 5 ft. in front. But has a 50% chance of extinguishing the flame.
+**Taunt:** You enrage your foe with cutting jeers and obscene gestures. Choose one enemy within 30 ft. and make a Dancing or Poetry skill check (your choice). The result is the DC for a Will save by your target. On a failed save, they are compelled to attack you. The effect is negated if an impenetrable or uncrossable barrier separates you. Note that the dancing form requires your target to have only animal intelligence. The poetical form requires your target to understand you, but could be combined with your Ventriloquism ability to force them to attack someone else instead.
 
-**Taunt:** Force an enemy to attack you (Will negates). At 3rd level, can use your ventriloquism to force them to attack another ally within 30' instead of you.
+**Twisted Mind:** Your thoughts run along crooked paths. You are immune to insanity, and any attempt to read your mind has a chance of backfiring: the mind-reader must succeed at a Will save or become confused (as per the _confusion_ spell) for 2d4 rounds.
 
-**Ventriloquism:** Can make their voice appear to originate from a different location within 30 ft. Can be combined with Taunt to force enemies to attack a different ally.
-
-**Warcaster:** You can cast spells without risk of failure while wearing armor you are proficient with.
+**Ventriloquism [3rd level]:** Throw your voice, or your impersonation of another's, so that it seems to come from somewhere else within 60 ft. Creatures affected by this illusion may be entitled to a save to disbelieve it.
 
 ### Skald
 
@@ -524,7 +536,7 @@ TODO Sense Motive, Pranks
 
 **Proficient Skills:** As base Bard, plus Ancient Languages, Legendry, Listening, and Music.
 
-**Sway Crowd:** Perform music or poetry to sway the mood of an audience. They must be able to hear and understand you, and must not be engaged in combat. If they fail a Will save, they remain attentive for 10 minutes, after which their Reaction improves by one step (_Example:_ from Cautious to Friendly). This ability can affect the same audience only once.
+**Sway Crowd:** Perform music or poetry to sway the mood of an audience. They must be able to hear and understand you, and must not be engaged in combat. If they fail a Will save, they remain attentive for 10 minutes, after which their Reaction improves by one step (e.g., from Cautious to Friendly). This ability can affect the same audience only once.
 
 **Drápavísur (Inspiring Verse):** Bolster your companions before battle by singing heroic songs or telling inspiring tales of their coming victory. All must be aware of the upcoming battle and the general nature of your foe must be known. The performance takes 3 rounds, and your audience must be able to hear and understand you. When complete, you and they receive a bonus of +2 to morale and +1 to to-hit rolls and saves, which lasts a number of rounds equal to your Bard level (minimum of 3 rounds).
 
