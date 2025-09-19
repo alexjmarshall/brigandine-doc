@@ -20,7 +20,7 @@ If you can see a creature, you can tell how alert it is.
 
 **Observing:** If any enemies are looking at you, even casually, you're Observed. You can **Hide** while Observed, but any movement you make while hidden will be seen, revealing your location.
 
-**Distracted:** A Distracted enemy is focused on something other than you. You're **Unseen** without needing to **Hide**. However, uou must still **Sneak** to move without giving away your location.
+**Distracted:** A Distracted enemy is focused on something other than you. You're **Unseen** without needing to **Hide**. However, you must still **Sneak** to move without giving away your location.
 
 A creature's attention is usually tied to its **Facing**. It Observes everything to its front and is Distracted from anything behind it. If a creature is focused on a task like reading a book, the GM may rule that they're Distracted from everything else, even in front of it. To randomly determine the attention of a creature, roll a d6: on a 1–2, it's Distracted until its next turn.
 
