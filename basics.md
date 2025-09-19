@@ -57,7 +57,7 @@ A roll succeeds if it meets or exceeds the target number:
 
 ### Determining Difficulty Class
 
-**Save vs. Special Attack:** `12 + ½ the monster's Hit Dice (HD)`
+**Save vs. Special Attack:** `12 + ½ the monster's level or hit dice (HD)`
 
 - _Example:_ the petrifying gaze of a Basilisk (6 HD) has a save DC of `12 + 3 = 15`
 
@@ -77,7 +77,7 @@ A roll succeeds if it meets or exceeds the target number:
 
 ### Passive Perception
 
-Some racial traits and class features let a character "passively notice" something. This means merely passing nearby grants them a secret skill check made by the GM on their behalf. If multiple characters succeed at this check, the one with the highest total notices it first. A character failing this check can still choose to actively search the area, allowing them another skill check.
+Some racial traits and class features let a character "passively notice" something. This means merely passing nearby grants them a secret skill check made by the GM on their behalf. If multiple characters succeed at this check, the one with the highest total notices it first. A character failing this check can still choose to actively search the area, allowing them another skill check. TODO simple d6 checks instead for passive perception.
 
 TODO multiple checks, group checks
 hit points and fatigue points
@@ -85,10 +85,21 @@ Combat Turn vs. Round vs. Exploration Turn
 
 Action Economy
 
-- Full-Round Action: Only thing you can do in a round, _Example:_ full MV, cast spell, shoot missile weapon. Exception, spells that don't have a somatic component can be done alongside movement.
-- Standard Action: Can move 1/3 MV and do this (in order). _Example:_ Melee attack, ready item, use item.
-- At-will Action: Can be done along with any other action. Some can even be done out-of-turn in reaction to another action or event.
-- Concentration: Some actions require concentration. Only one such action can be done per round, but can generally be done alongside other actions that don't require concentration. Spellcasting requires concentration, as do most psionic, spell-like and at-will abilities. Some spell or spell-like effects require concentration to maintain from round to round. This can be done alongside moving and attacking but precludes casting other spells, using psionic, spell-like abilities, other effects that require concentration, etc.
+Standard Action: You do one of these on your turn. can move up to 1/3 MV and do one significant thing (your action) on your turn (in that order). If an effect is described as an action and not otherwise specified, it's a standard action. Different actions restrict your movement. If not otherwise specified, you can move up to 1/3 and complete an action (in that order).
+
+- Charge allows your full MV before attacking.
+- Some actions require precise body control and can't be combined with _any_ movement, e.g. cast somatic spell, shoot missile weapon. Sometimes called "full-round actions".
+- If you take no action, you can move your entire MV on your turn.
+
+Reaction: Like an action but you do it in response to something your opponent does on their turn. Does not allow movement unless stated otherwise. Like actions, you are limited to 1 on your opponent's turn.
+
+Concentration: Some spell or spell-like effects require some mental effort to sustain, but don't count as an action. Concentration doesn't restrict your movement or physical actions, but you can't perform mental actions like casting spells or using psionic powers. You can only concentrate on one effect at a time, and your concentration is disrupted if you take damage.
+
+At-Will Ability/Free Action: These take so little time and effort they don't count as an action. DM decides how many of these can be done in 1 round.
+
+- Exception: if an at-will ability requires a targeting decision, it's always treated as an action. E.g., most psionic abilities require no vocal or somatic components and take effect almost immediately, therefore most are activated at-will. However any that involve target selection count as an action.
+
+Attack Action: Generally characters make 1 attack as an action. However some monsters and high level fighter types can make multiple attacks in one action. Some abilities replace only one of these attacks. These are generally modified or powered-up attacks. E.g. a Samurai's Issen-jutsu or Senpu-jutsu Ki powers.
 
 # Size
 
@@ -99,3 +110,5 @@ size and carrying capacity
 effects of encumbrance besides MV?
 
 weapon handedness
+
+- Ties in opposed rolls: active vs. passive - active wins, any roll vs. a save - save wins
