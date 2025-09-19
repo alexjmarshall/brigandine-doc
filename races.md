@@ -36,9 +36,9 @@ _Dour and clannish but deeply loyal._
 
 **Darkvision:** Can see up to 60 ft. in darkness.
 
-**Dwarven Combat Training:** +2 AC vs. Giant-type monsters (_Example:_ ogres, trolls, giants, titans). +2 to-hit orcs and goblinoids.
+**Dwarven Combat Training:** +2 AC vs. Giant-type monsters (e.g., ogres, trolls, giants, titans). +2 to-hit orcs and goblinoids.
 
-**Magic-Averse:** +4 to all saves vs. spells and spell-like effects. Magic items (except weapons, armor, shields, gauntlets, and girdles) have a 20% chance to fail when used. Roll each time the item is activated. For continuous-effect items, roll once when the item is first worn or used. On a failure, it never functions for the Dwarf.
+**Magic-Averse:** +4 to all saves vs. spells and spell-like effects. Magic items (except weapons, armor, shields, gauntlets, and girdles) have a 20% chance to fail when used. Roll each time the item is activated. For continuous-effect items, roll once when the item is first worn or used. On a failure, it never functions for the dwarf.
 
 **Small Arms:** Cannot use Huge-sized swords or bows.
 
@@ -137,7 +137,7 @@ _An ancient race, aloof and preoccupied by their fate._
 
 **Woodland Stealth:** Hiding and Sneaking bonus increases to +4 in woodland.
 
-**Worldsong:** Once per hour, may listen to their surroundings to sense traces of evil or extraplanar creatures, or residue of powerful emotions (_Example:_ great sorrow or joy). In primeval forest, may ask a question to clarify the impression, such as the nature of the creatures involved or how long ago the impression was made.
+**Worldsong:** Once per hour, may listen to their surroundings to sense traces of evil or extraplanar creatures, or residue of powerful emotions (e.g., great sorrow or joy). In primeval forest, may ask a question to clarify the impression, such as the nature of the creatures involved or how long ago the impression was made.
 
 ### Dark Elf (Drow)
 

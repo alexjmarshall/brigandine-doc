@@ -4,7 +4,7 @@
 
 A creature with Blindsight can perceive its surroundings within a limited range, even in magical darkness or against invisible targets, as long as it has line of effect. It does not detect ethereal creatures. This ability is commonly found in animals that navigate by echolocation or detect heat, like bats and snakes.
 
-Depending on the nature of the Blindsight, certain methods may allow a target to hide (_Example:_ by masking themselves with sounds or other heat sources). In such cases, they make a Hide check opposed by the Spot check of the creature with Blindsight as usual.
+Depending on the nature of the Blindsight, certain methods may allow a target to hide (e.g., by masking themselves with sounds or other heat sources). In such cases, they make a Hide check opposed by the Spot check of the creature with Blindsight as usual.
 
 ### Darkvision
 
