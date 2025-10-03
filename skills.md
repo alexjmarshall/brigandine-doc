@@ -18,9 +18,9 @@ Making contact with a hidden creature, including an attack that beats their touc
 
 Make a Jump check to leap across a gap, up to a ledge, or over a hazard. If you do not have at least 10 feet of movement to make a running jump, apply a –5 penalty to the check.
 
-**Long Jump:** To clear a horizontal distance, roll against `DC = distance in feet – 3`. _Example:_ jumping 10 feet requires a DC 7 check. If you are leaping over a gap and fail by 5 or less, make a Reflex save to grab the ledge.
+**Long Jump:** To clear a horizontal distance, roll against `DC = distance in feet – 3`. _Example:_ Jumping 10 feet requires a DC 7 check. If you are leaping over a gap and fail by 5 or less, make a Reflex save to grab the ledge.
 
-**High Jump:** To reach a vertical height, roll against `DC = (desired height – standing reach) × 5`. See the table below for standing reach by character size. _Example:_ a Medium creature (7 ft. reach) jumping to grab a 10 ft. high ledge rolls against DC 15.
+**High Jump:** To reach a vertical height, roll against `DC = (desired height – standing reach) × 5`. See the table below for standing reach by character size. _Example:_ A Medium creature (7 ft. reach) jumping to grab a 10 ft. high ledge rolls against DC 15.
 
 ### Standing Reach by Character Size
 
@@ -66,3 +66,4 @@ Origin sets a skill to Proficient, or if already that or better, a +2 bonus.
 - Untrained Basic: 0 start, slow advancement, max 2/3 level, min 1/3 level
 - Untrained Expert: -2 start, no advancement, does not appear on char sheet
   - most can't be used at all, but untrained expert weapons can be attacked with
+- TODO: collapse categories of Proficient and Untrained Basic? If so, add all basic skills to at least Proficient in class descriptions

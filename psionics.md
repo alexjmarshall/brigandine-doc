@@ -2,7 +2,7 @@
 
 ## Psionic Ability
 
-Psionic talent is determined at character creation. Add together your full modifiers for Intelligence, Wisdom, and Charisma and roll this as a percentage chance. _Example:_ a character with Int 17 (+7), Wis 8 (–2), and Cha 15 (+5) has a `7 - 2 + 5 = 10%` chance of psionic talent.
+Psionic talent is determined at character creation. Add together your full modifiers for Intelligence, Wisdom, and Charisma and roll this as a percentage chance. _Example:_ A character with Int 17 (+7), Wis 8 (–2), and Cha 15 (+5) has a `7 - 2 + 5 = 10%` chance of psionic talent.
 
 Psionic ability is measured in **Psionic Strength Points (PSPs)**. PSPs are spent to use psionic disciplines and attack/defense modes in psionic combat.
 

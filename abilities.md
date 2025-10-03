@@ -54,7 +54,7 @@ Enlightenment, judgement and self-control. Add the standard modifier to:
 
 **Ability Checks:** Cast cleric spell (DC 4). Note that clerics with Wisdom 13+ succeed automatically.
 
-**Bonus Cleric Spells:** Clerics with high Wisdom receive bonus spells. These are cumulative. _Example:_ a Cleric with 17 Wisdom gains one extra 1st-level and one extra 2nd-level spell a day.
+**Bonus Cleric Spells:** Clerics with high Wisdom receive bonus spells. These are cumulative. _Example:_ A Cleric with 17 Wisdom gains one extra 1st-level and one extra 2nd-level spell a day.
 
 |  Wis  | Bonus Cleric Spells |
 | :---: | :-----------------: |

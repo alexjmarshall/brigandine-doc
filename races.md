@@ -38,7 +38,7 @@ _Dour and clannish but deeply loyal._
 
 **Dwarven Combat Training:** +2 AC vs. Giant-type monsters (e.g., ogres, trolls, giants, titans). +2 to-hit orcs and goblinoids.
 
-**Magic-Averse:** +4 to all saves vs. spells and spell-like effects. Magic items (except weapons, armor, shields, gauntlets, and girdles) have a 20% chance to fail when used. Roll each time the item is activated. For continuous-effect items, roll once when the item is first worn or used. On a failure, it never functions for the dwarf.
+**Magic-Averse:** +4 to all saving throws vs. spells and spell-like effects. Magic items (except weapons, armor, shields, gauntlets, and girdles) have a 20% chance to fail when used. Roll each time the item is activated. For continuous-effect items, roll once when the item is first worn or used. On a failure, it never functions for the dwarf.
 
 **Small Arms:** Cannot use Huge-sized swords or bows.
 
@@ -96,7 +96,7 @@ _An ancient race, aloof and preoccupied by their fate._
 
 **Superior Vision:** Twice normal visual range in dim/bright light.
 
-**Enigmatic Mind:** Immune to magical charm. +2 to saves vs. other enchantments.
+**Enigmatic Mind:** Immune to magical charm. +2 to saving throws vs. other enchantments.
 
 **Keen Senses:** +2 Searching and Listening. Passively notices secret doors and concealed portals.
 
@@ -137,7 +137,7 @@ _An ancient race, aloof and preoccupied by their fate._
 
 **Woodland Stealth:** Hiding and Sneaking bonus increases to +4 in woodland.
 
-**Worldsong:** Once per hour, may listen to their surroundings to sense traces of evil or extraplanar creatures, or residue of powerful emotions (e.g., great sorrow or joy). In primeval forest, may ask a question to clarify the impression, such as the nature of the creatures involved or how long ago the impression was made.
+**Worldsong:** Once per hour, may listen to their surroundings to sense traces of evil or extraplanar creatures, or residue of powerful emotions (e.g., great sorrow or joy). In primeval forest, may ask a single question, though the answer is nonverbal and requires interpretation. TODO revise
 
 ### Dark Elf (Drow)
 
@@ -151,7 +151,7 @@ _An ancient race, aloof and preoccupied by their fate._
 
 **Light Blindness:** -2 to attack rolls and Searching checks in bright light. Abrupt exposure to bright light blinds for 1 round.
 
-**Residual Magic Resistance:** +2 to all saves vs. spells and spell-like effects.
+**Residual Magic Resistance:** +2 to all saving throws vs. spells and spell-like effects.
 
 **Superior Darkvision:** Can see up to 120 ft. in darkness. Replaces _Enhanced Vision_.
 
@@ -177,7 +177,7 @@ _A restless wanderlust makes them natural explorers._
 
 **Sharp Senses:** +2 Listening and Searching.
 
-**Slippery Mind:** +2 to saves vs. enchantments.
+**Slippery Mind:** +2 to saving throws vs. enchantments.
 
 ## Half-Ogre
 
@@ -235,7 +235,7 @@ _Garrulous and happy-go-lucky. Often underestimated and capable of great bravery
 
 **Size:** Small
 
-**Doughty:** +4 to saves vs. fear.
+**Doughty:** +4 to saving throws vs. fear.
 
 ### Hairfoot
 

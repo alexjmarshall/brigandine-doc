@@ -72,5 +72,5 @@ Storm - size G, 2d12 (C+ sword) + 10
 
 ## HP and Base Attack Bonus Scaling
 
-- HD 6-10: d8, HD 11-15: d10, HD 16+: d12
-- Base Attack Bonus: +1/HD up to 10, +1/2 HD after 10. E.g. HD 3 = +3, HD 19 = +14. HP mod (e.g. HD 4+1) = round up HD.
+- HD / 5 \* HD = HP bonus. E.g. HD 5-9: +1, HD 10-14: +2, HD 15+: +3
+- Base Attack Bonus: +1/HD up to 10, +1/2 HD after 10. E.g. HD 3 = +3, HD 19 = +14. If there is a HP mod, round up the HD (e.g. HD 4+1 = HD 5).
