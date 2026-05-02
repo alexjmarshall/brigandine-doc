@@ -1,16 +1,33 @@
-- attributes (starting skills and development potential?)
-- background (starting skills, starting gear and wealth)/standing
-- height/weight
-- life path?
-- boons/quirks
-- patches/trinkets
-- moral/personality inclinations
-- passions
-- birthsigns
-- runetelling
+# Characters
 
-one-click character generation: everything is randomly generated but weighted to produce a variety of coherent character concepts. The closest archetype represented by the character (the one the character has the most potential for) will be flagged for the player.
+## Attributes
 
-can allow regens, because perfect scores in everything will be extremely rare
+### Strength
 
-and because starting with low attributes will be worse, but they will rise faster--but they also make associated skills rise faster, which balances that out to a degree
+### Agility
+
+### Intellect
+
+### Will
+
+## Ruling Planet & Season
+
+- primary and secondary humor
+- each of which provides 2 virtues and 1 sin, choose 2/1
+- other humor effects?
+
+## Estate & Station
+
+### Oratores
+
+### Bellatores
+
+### Laboratores
+
+## Knowledges
+
+## Vocation
+
+- magic
+  - earthsea, language where it's impossible to lie, so what you say becomes true
+  - goal with free magic is not to make it balanced but to prevent tedious negotiations. So the guideline is based off Maelstrom (difficulty based on how far away it is from coincidental), and the rule is the player says what they are doing and the GM decides the difficulty. Once the players say what they are doing they are committed, no take backsies.
