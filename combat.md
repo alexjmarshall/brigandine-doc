@@ -70,6 +70,7 @@ Any die rolling a 5 or 6 counts as a **success**.
 | **Attack vs. Dodge**      | Attacker rolls. Dodger rolls Reserve dice. **2+ successes** = No damage. **0-1 successes** = Full damage.                                                                  |
 | **Feint vs. Parry**       | Both initial pools are **spent**. Attacker makes a Follow-up (capped by Defender's committed dice). Any success deals damage.                                              |
 | **Feint vs. Counter**     | Follow-up is intercepted. Counter rolls first against the Follow-up pool. Surviving Follow-up dice then hit Defender.                                                      |
+| **Feint vs. Dodge**       | Roll follow-up attack. Dodger rolls Reserve dice. **2+ successes** = No damage. **0-1 successes** = Full damage.                                                           |
 | **Dodge vs. Counter**     | If Dodger gets 2+ successes, the Counter is wasted. Otherwise, Counter deals full damage.                                                                                  |
 | **Dodge vs. Dodge/Parry** | A stalemate. No damage; all **exchange** dice become **spent**.                                                                                                            |
 
