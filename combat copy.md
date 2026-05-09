@@ -8,8 +8,8 @@ Combatants have a pool of d6s called Hit Dice (HD). These dice serve as both you
 
 Both sides roll **1d6** for initiative (reroll ties).
 
-- **The Winner**: Takes the first turn with all Hit Dice available.
-- **The Loser**: Starts on the defensive with only half their Hit Dice (round up) available until their first turn.
+- **Winner**: Takes the first turn with all Hit Dice available.
+- **Loser**: Starts on the defensive with only half their Hit Dice (round up) available until their first turn.
 
 ## The Turn Structure
 
@@ -17,23 +17,16 @@ On your turn as the **Attacker**:
 
 1. **Refresh**: Recover dice spent since your last refresh.
 2. **Exchanges**: Engage a target in an exchange of blows. You may keep attacking as long as you have dice available.
-3. **End**: Your turn ends when you take damage, decide to stop, or run out of dice.
-
----
+3. **End**: Your turn ends when you **take damage**, **decide to stop**, or **run out of dice**.
 
 ## The Anatomy of an Exchange
 
 Every exchange follows this sequence:
 
-1. **Commitment**: The Attacker declares how many dice to commit. The Defender then does the same.
-2. **Defender's Maneuver**: The Defender secretly selects their maneuver by hiding a colored die in their hand:
-   - **White**: Parry
-   - **Red**: Dodge
-   - **Yellow**: Counter
-3. **Attacker’s Maneuver**: Seeing the defender's commitment (but not their maneuver) the Attacker declares theirs (**Attack**, **Feint** or **Dodge**).
-4. **Reveal and Resolve**: The defender reveals their die. Roll dice (5+ is a success), compare results, and apply damage.
-
----
+1. **Commitment**: The Attacker declares how many dice they will commit. The Defender then does the same.
+2. **Maneuver Selection**: The Attacker secretly selects their maneuver (**Attack**, **Feint** or **Dodge**) as the Defender secretly selects theirs (**Parry**, **Counter** or **Dodge**).
+3. **Reveal**: Combatants simultaneously reveal their maneuvers.
+4. **Resolve**: Roll dice (5+ is a success), compare results, and apply damage.
 
 ## Maneuvers
 

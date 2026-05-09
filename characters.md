@@ -4,25 +4,24 @@
 
 ### Strength
 
-### Agility
+### Quickness
 
 ### Intellect
 
 ### Will
 
-## Ruling Planet & Season
+## Ruling Planet
 
 - primary and secondary humor
 - each of which provides 2 virtues and 1 sin, choose 2/1
-- other humor effects?
 
 ## Estate & Station
 
-### Oratores
+### Oratores (Clergy/Scholar)
 
-### Bellatores
+### Bellatores (Noble)
 
-### Laboratores
+### Laboratores (Merchant/Peasant)
 
 ## Knowledges
 
